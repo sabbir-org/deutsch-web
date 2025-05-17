@@ -2,20 +2,22 @@ import { useNavigate, useParams } from "react-router";
 import Titles from "../../components/Titles";
 import AudioPlayer from "../../components/AudioPlayer";
 import Dialogue from "../../components/Dialogue";
-import conversation from "../../assets/conversation.json";
+import useConvoStore from "../../store/convoStore";
 
 const ListenContent = () => {
-  const { id } = useParams();
-  const item = conversation.find((item) => item.id === id);
   const navigate = useNavigate();
+  const { id } = useParams();
 
-  const currIndex = conversation.findIndex((item) => item.id === id);
-  const nextId = conversation[currIndex + 1]?.id;
-  const prevId = conversation[currIndex - 1]?.id;
+  const { conversations } = useConvoStore();
 
-  if (!item) {
-    return <div>Item not found</div>;
-  }
+  const item = conversations.find((item) => item.id === id);
+
+  const currIndex = conversations.findIndex((item) => item.id === id);
+  const nextId = conversations[currIndex + 1]?.id;
+  const prevId = conversations[currIndex - 1]?.id;
+
+  if (!item) return <div>Not found</div>;
+
   return (
     <div>
       <Titles

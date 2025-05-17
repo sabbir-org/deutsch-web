@@ -9,7 +9,7 @@ const Home = () => {
       </h2>
       <p className={`font-medium`}>Integriertes Kurs- und Arbeitsbuch</p>
       <ul className={`mt-10 text-lg`}>
-        <Link to="/listen/03_spektrum_a1" className={`flex items-center gap-x-2`}><MoveRight/> Hören</Link>
+        <Link to="/listen" className={`flex items-center gap-x-2`}><MoveRight/> Hören</Link>
       </ul>
     </div>
   );
