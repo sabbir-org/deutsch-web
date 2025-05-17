@@ -1,0 +1,433 @@
+[
+  {
+    "id": "03_spektrum_a1",
+    "title": "Sich vorstellen",
+    "subtitle": "Hören und lesen Sie. ",
+    "number": "2a",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/03_spektrum_a1-1.mp3",
+    "convo": [
+      {
+        "name": "Christian",
+        "text": "Guten Tag. Ich heiße Christian Fröhlich. Ich komme aus Deutschland. Wie heißen Sie?"
+      },
+      {
+        "name": "Erik",
+        "text": "Hallo! Mein Name ist Erik Sander. Ich komme aus Dänemark. Und wer sind Sie?"
+      },
+      {
+        "name": "Paola",
+        "text": "Ich bin Paola Conti und ich komme aus Italien."
+      }
+    ]
+  },
+  {
+    "id": "04_spektrum_a1",
+    "title": "",
+    "subtitle": "Hören und lesen Sie. ",
+    "number": "2b",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/04_spektrum_a1-1.mp3",
+    "convo": [
+      {
+        "name": "Christian",
+        "text": "Hallo! Ich heiße Christian Fröhlich.Wie heißen Sie?"
+      },
+      { "name": "Erik", "text": "Mein Name ist Erik Sander.Wer sind Sie?" },
+      { "name": "Paola", "text": "Ich bin Paola Conti.Ich komme aus Italien." }
+    ]
+  },
+  {
+    "id": "05_spektrum_a1",
+    "title": "Sie oder du?",
+    "subtitle": "Hören und lesen Sie die Dialoge. ",
+    "number": "4a",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/05_spektrum_a1-1.mp3",
+    "convo": [
+      {
+        "name": "Frau Richter",
+        "text": "Guten Tag. Mein Name ist Lydia Richter.Wie heißen Sie?"
+      },
+      { "name": "Herr Martinez", "text": "Ich heiße Mario Martinez. " },
+      { "name": "Frau Richter", "text": "Woher kommen Sie, Herr Martinez? " },
+      { "name": "Herr Martinez", "text": "Ich komme aus Spanien. Und Sie?" },
+      {
+        "name": "Frau Richter ",
+        "text": "Ich komme aus Österreich.Ich wohne in Wien. Wo wohnen Sie?  "
+      },
+      { "name": "Herr Martinez ", "text": "Ich wohne in Madrid." },
+      { "name": "Florian", "text": "Hallo! Ich bin Florian. Wie heißt du?" },
+      { "name": "Lena", "text": "Ich heiße Lena." },
+      { "name": "Florian", "text": "Woher kommst du, Lena?" },
+      { "name": "Lena", "text": "Ich komme aus Polen. Und du?" },
+      {
+        "name": "Florian",
+        "text": "Ich komme aus der Schweiz.Ich wohne in Basel. Und wo wohnst du?  "
+      },
+      { "name": "Lena", "text": "Ich wohne in Warschau. " }
+    ]
+  },
+  {
+    "id": "14_spektrum_a1",
+    "title": "Ihr und wir",
+    "subtitle": "Hören und lesen Sie den Dialog.",
+    "number": "18a",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/14_spektrum_a1-1.mp3",
+    "convo": [
+      { "name": "Susanne", "text": "Hallo, ich bin Susanne." },
+      {
+        "name": "Marie",
+        "text": "Hallo, ich bin Marie. Das ist Adam. Woher kommst du, Susanne? "
+      },
+      {
+        "name": "Susanne",
+        "text": "Ich komme aus Österreich, aus Wien. Und ihr? Woher kommt ihr? "
+      },
+      { "name": "Adam", "text": "Wir kommen aus Tschechien. " },
+      { "name": "Susanne", "text": "Ah, aus Tschechien! Wohnt ihr in Prag? " },
+      { "name": "Adam", "text": "Ja, wir wohnen in Prag." },
+      { "name": "Susanne", "text": "Was macht ihr hier in Berlin? " },
+      { "name": "Marie", "text": "Wir lernen Deutsch. " },
+      { "name": "Susanne", "text": "Toll! Welche Sprachen sprecht ihr noch? " },
+      {
+        "name": "Marie",
+        "text": "Wir sprechen Tschechisch, Englisch und ein bisschen Russisch. Und du?"
+      },
+      {
+        "name": "Susanne",
+        "text": "Ich spreche Deutsch, Englisch und auch ein bisschen Russisch. "
+      },
+      { "name": "Adam", "text": "Du sprichst Russisch! Interessant! " }
+    ]
+  },
+  {
+    "id": "16_spektrum_a1",
+    "title": "Sich vorstellen",
+    "subtitle": "Hören und lesen Sie den Dialog",
+    "number": "4a",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/16_spektrum_a1-1.mp3",
+    "convo": [
+      {
+        "name": "Peter Schneider",
+        "text": "Hallo, ich bin Peter Schneider.Wie ist Ihr Name?"
+      },
+      {
+        "name": "Magdalena Nowak",
+        "text": "Ich heiße Magdalena Nowak. Kommen Sie aus Deutschland? "
+      },
+      {
+        "name": "Peter Schneider",
+        "text": "Ja, ich komme aus Düsseldorf.Und Sie, woher kommen Sie? "
+      },
+      { "name": "Magdalena Nowak", "text": "Ich komme aus Krakau. " },
+      {
+        "name": "Peter Schneider",
+        "text": "Ah, aus Krakau! Was machen Sie hier in Frankfurt? "
+      },
+      { "name": "Magdalena Nowak", "text": "Ich lerne Deutsch." },
+      {
+        "name": "Peter Schneider",
+        "text": "Und was machen Sie beruflich?Sind Sie Künstlerin? "
+      },
+      {
+        "name": "Magdalena Nowak",
+        "text": "Nein, ich bin Lehrerin. Ich unterrichte Kinder. Und Sie?"
+      },
+      {
+        "name": "Peter Schneider",
+        "text": "Ich arbeite als Manager. Ich bin beruflich oft in Polen, in Warschau. "
+      },
+      {
+        "name": "Magdalena Nowak",
+        "text": "Interessant. Sprechen Sie ein bisschen Polnisch? "
+      },
+      {
+        "name": "Peter Schneider",
+        "text": "Nein, ich spreche Englisch. Ich präsentiere auch Projekte auf Englisch. "
+      }
+    ]
+  },
+  {
+    "id": "29_spektrum_a1",
+    "title": "Die liebe Familie",
+    "subtitle": "Hören und lesen Sie",
+    "number": "19a",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/29_spektrum_a1-1.mp3",
+    "image": {
+      "0": "https://i.ibb.co/7F43b3w/Screenshot-2025-05-16-125335.png",
+      "6": "https://i.ibb.co/M0nBT9J/Screenshot-2025-05-16-143131.png",
+      "7": "https://i.ibb.co/x8zTCVwQ/Screenshot-2025-05-16-143143.png"
+    },
+    "convo": [
+      {
+        "name": "narrator",
+        "text": "Das sind Peter, Lucie, Sarah und Felix. Peter und Lucie sind die Eltern von Sarah und Felix.Sarah und Felix sind die Kinder von Peter und Lucie."
+      },
+      {
+        "name": "narrator",
+        "text": "Das ist Peter, der Mann von Lucie. Peter arbeitet als Ingenieur bei Siemens. Seine Muttersprache ist Deutsch, er spricht auch Englisch und Französisch. Peter ist verheiratet. Er liebt seine Frau Lucie sehr. Peter kocht gern."
+      },
+      {
+        "name": "narrator",
+        "text": "Das ist Lucie, die Frau von Peter. Lucie ist Französischlehrerin. Sie kommt aus Frankreich, ihre Muttersprache ist Französisch. Sie spricht auch sehr gut Deutsch und Italienisch. Sie liebt Peter sehr. Lucie liest gern Liebesromane."
+      },
+      {
+        "name": "narrator",
+        "text": "Das ist Sarah, die Tochter von Peter und Lucie, die Schwester von Felix. Sie ist 13 Jahre alt und hört gern Popmusik. Sarah kocht auch gern, wie ihr Vater."
+      },
+      {
+        "name": "narrator",
+        "text": "Das ist Felix, der Sohn von Peter und Lucie, der Bruder von Sarah. Er ist zehn Jahre alt und spielt gern Computerspiele. Felix spricht perfekt Französisch, wie seine Mutter. "
+      },
+      {
+        "name": "narrator",
+        "text": "Das sind Susanne und Ben. Susanne und Ben sind die Geschwister von Peter."
+      },
+      {
+        "name": "narrator",
+        "text": "Das ist Ben, der Bruder von Peter, der Onkel von Sarah und Felix. Er arbeitet als Kommissar bei der Polizei. Ben ist geschieden und lebt jetzt allein in Köln. Ben spielt gern Gitarre. "
+      },
+      {
+        "name": "narrator",
+        "text": "Das ist Susanne. Sie ist die Schwester von Peter und die Tante von Sarah und Felix. Susanne ist ledig, sie lebt im Moment mit Edwin zusammen in Berlin. Sie ist Journalistin und schreibt viele Artikel. "
+      }
+    ]
+  },
+  {
+    "id": "32_spektrum_a1",
+    "title": "Im Cafe",
+    "subtitle": "Hören und lesen Sie den Dialog",
+    "number": "2a",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/32_spektrum_a1-1.mp3",
+    "convo": [
+      { "name": "Hilde", "text": "Hallo Emma." },
+      { "name": "Emma", "text": "Hallo Hilde. Wie geht es dir?" },
+      { "name": "Hilde", "text": "Danke, gut. Und wie geht es dir?" },
+      { "name": "Emma", "text": "Danke, auch gut. Dort ist ein Tisch frei …" },
+      {
+        "name": "Hilde",
+        "text": "Ich brauche jetzt einen Kaffee. Und du? Was möchtest du trinken?"
+      },
+      {
+        "name": "Emma",
+        "text": "Hm, ich trinke vielleicht einen Tee oder einen Orangensaft oder vielleicht auch einen Kaffee …"
+      },
+      { "name": "Kellner", "text": "Was möchten Sie trinken?" },
+      { "name": "Hilde", "text": "Ich möchte gern einen Kaffee." },
+      {
+        "name": "Emma",
+        "text": "Ich nehme einen Tee … nein, lieber einen Kaffee … nein, ich trinke ein Mineralwasser."
+      },
+      {
+        "name": "Kellner",
+        "text": "Einmal Kaffee und einmal Wasser. Ist das alles?"
+      },
+      {
+        "name": "Emma",
+        "text": "Ach nein, ich nehme doch lieber einen Kaffee."
+      },
+      { "name": "Kellner", "text": "Also zwei Kaffee. Mit Milch und Zucker?" },
+      {
+        "name": "Hilde",
+        "text": "Mit Milch und ohne Zucker. Ich nehme noch ein Stück Schokoladenkuchen."
+      },
+      {
+        "name": "Kellner",
+        "text": "Möchten Sie auch ein Stück Schokoladenkuchen?"
+      },
+      { "name": "Emma", "text": "Nein, danke." },
+      {
+        "name": "Hilde",
+        "text": "Möchtest du wirklich keinen Schokoladenkuchen?"
+      },
+      { "name": "Emma", "text": "Ach doch, ich nehme auch ein Stück." },
+      { "name": "Hilde", "text": "Wir möchten gern zahlen." },
+      { "name": "Kellner", "text": "Zusammen oder getrennt?" },
+      { "name": "Hilde", "text": "Zusammen." },
+      { "name": "Emma", "text": "Getrennt." },
+      { "name": "Hilde", "text": "Zusammen. Ich zahle heute." },
+      { "name": "Emma", "text": "Oh, vielen Dank, Hilde." },
+      {
+        "name": "Kellner",
+        "text": "Zwei Kaffee und zwei Schokoladenkuchen, das macht 8,60 Euro."
+      },
+      { "name": "Hilde", "text": "Bitte." },
+      { "name": "Kellner", "text": "Vielen Dank. Auf Wiedersehen." }
+    ]
+  },
+  {
+    "id": "33_spektrum_a1",
+    "title": "Ein Treffen auf der Straße",
+    "subtitle": "Hören Sie den Dialog noch einmal und lesen Sie",
+    "number": "9b",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/33_spektrum_a1-1.mp3",
+    "convo": [
+      { "name": "Andreas", "text": "Hallo Petra." },
+      {
+        "name": "Petra",
+        "text": "Hallo Andreas, so eine Überraschung! Was machst du hier in Frankfurt?"
+      },
+      {
+        "name": "Andreas",
+        "text": "Ich bin beruflich hier. Ich besuche eine Konferenz."
+      },
+      { "name": "Petra", "text": "Du wohnst doch jetzt in der Schweiz, oder?" },
+      {
+        "name": "Andreas",
+        "text": "Ja, ich wohne in Basel. Meine Frau arbeitet dort als Ärztin. Warst du schon mal in Basel?"
+      },
+      {
+        "name": "Petra",
+        "text": "Nein. Ich war schon in Bern, aber ich war noch nicht in Basel. Hast du auch Kinder?"
+      },
+      {
+        "name": "Andreas",
+        "text": "Ja, ich habe einen Sohn. Er heißt Paul und ist drei Jahre alt. Und du? Bist du verheiratet?"
+      },
+      {
+        "name": "Petra",
+        "text": "Nein, ich bin Single. Ich wohne hier im Zentrum von Frankfurt und arbeite viel."
+      },
+      { "name": "Andreas", "text": "Wo arbeitest du?" },
+      {
+        "name": "Petra",
+        "text": "Ich arbeite bei der Deutschen Bank als Datenanalystin. Wo ist deine Konferenz?"
+      },
+      {
+        "name": "Andreas",
+        "text": "Im Konferenzzentrum. Ich habe heute frei. Mein Projekt präsentiere ich morgen."
+      },
+      { "name": "Petra", "text": "Möchtest du etwas essen?" },
+      {
+        "name": "Andreas",
+        "text": "Ja, ein Schnitzel. Und ich möchte gern ins Museum gehen."
+      },
+      {
+        "name": "Petra",
+        "text": "In Frankfurt gibt es das Städel Museum. Das Museum ist sehr berühmt. Dort hängen Bilder aus 700 Jahren Malerei, auch Bilder von Claude Monet. Das war doch früher dein Lieblingsmaler!"
+      },
+      {
+        "name": "Andreas",
+        "text": "Ja, das stimmt! Er ist auch heute noch mein Lieblingsmaler."
+      },
+      {
+        "name": "Petra",
+        "text": "Dann essen wir jetzt ein Schnitzel und danach gehen wir ins Museum."
+      },
+      { "name": "Andreas", "text": "Prima Idee! Das machen wir!" }
+    ]
+  },
+  {
+    "id": "34_spektrum_a1",
+    "title": "Ein Treffen auf der Straße - Intonation",
+    "subtitle": "Hären Sie den kurzen Dialog",
+    "number": "9d",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/34_spektrum_a1-1.mp3",
+    "convo": [
+      {
+        "name": "Petra",
+        "text": "Hallo Andreas, so eine Überraschung! Was machst du hier? "
+      },
+      {
+        "name": "Andreas",
+        "text": "Ich besuche eine Konferenz. Heute habe ich frei. Ich möchte gern ins Museum gehen. "
+      },
+      {
+        "name": "Petra",
+        "text": "In Frankfurt gibt es das Städel Museum. Dort hängen Bilder von Claude Monet. Das war doch früher dein Lieblingsmaler! "
+      },
+      {
+        "name": "Andreas",
+        "text": "Ja, das stimmt! Er ist auch heute noch mein Lieblingsmaler."
+      },
+      { "name": "Petra", "text": "Dann gehen wir jetzt ins Museum. " },
+      { "name": "Andreas", "text": "Prima Idee! Das machen wir!" }
+    ]
+  },
+  {
+    "id": "36_spektrum_a1",
+    "title": "Im Hotel",
+    "subtitle": "Hören und lesen Sie den Dialog. ",
+    "number": "15a",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/36_spektrum_a1-1.mp3",
+    "convo": [
+      {
+        "name": "Rezeptionist",
+        "text": "Guten Tag. Herzlich willkommen im Hotel Europa."
+      },
+      {
+        "name": "Andreas",
+        "text": "Guten Tag, ich möchte bitte ein Einzelzimmer."
+      },
+      { "name": "Rezeptionist", "text": "Haben Sie eine Reservierung?" },
+      { "name": "Andreas", "text": "Nein, ich habe keine Reservierung." },
+      { "name": "Rezeptionist", "text": "Ist das Zimmer für eine Nacht?" },
+      { "name": "Andreas", "text": "Ja, für eine Nacht." },
+      {
+        "name": "Rezeptionist",
+        "text": "Moment bitte. Ja. Wir haben noch ein Einzelzimmer für Sie."
+      },
+      { "name": "Andreas", "text": "Was kostet das Zimmer?" },
+      {
+        "name": "Rezeptionist",
+        "text": "Das Zimmer kostet 80 Euro pro Nacht."
+      },
+      { "name": "Andreas", "text": "Mit Frühstück?" },
+      {
+        "name": "Rezeptionist",
+        "text": "Nein, der Preis ist ohne Frühstück. Das Frühstück kostet 15 Euro extra."
+      },
+      { "name": "Andreas", "text": "Gut. Ich nehme das Zimmer. Gibt es WLAN?" },
+      {
+        "name": "Rezeptionist",
+        "text": "Natürlich. Der Code steht hier auf der Zimmerkarte. Ich brauche noch Ihre persönlichen Angaben hier auf dem Formular. Wie zahlen Sie? Bar oder mit Kreditkarte?"
+      },
+      { "name": "Andreas", "text": "Mit Kreditkarte." },
+      {
+        "name": "Rezeptionist",
+        "text": "Hier ist Ihre Zimmerkarte, das ist der Code für das WLAN. Ihre Zimmernummer ist die 302."
+      },
+      { "name": "Andreas", "text": "Vielen Dank." },
+      { "name": "Rezeptionist", "text": "Schönen Aufenthalt!" }
+    ]
+  },
+  {
+    "id": "40_spektrum_a1",
+    "title": "Frankfurt am Main ",
+    "subtitle": "Hören und lesen Sie den Text.",
+    "number": "20a",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/40_spektrum_a1-1.mp3",
+    "convo": [
+      {
+        "name": "narrator",
+        "text": "Frankfurt ist über 1200 Jahre alt. Die Stadt liegt im Bundesland Hessen am Fluss Main. In Frankfurt leben etwa 700.000 Menschen. Frankfurt am Main ist ein wichtiges internationales Finanzzentrum. In Frankfurt gibt es die Europäische Zentralbank, die Deutsche Bundesbank, die Frankfurter Börse, die Deutsche Bank, die Commerzbank und andere Banken."
+      },
+      {
+        "name": "narrator",
+        "text": "Eine Besonderheit ist die Skyline von Frankfurt. Es gibt viele Hochhäuser, manche Leute sagen zu Frankfurt 'Mainhattan', manche sagen auch 'Bankfurt'"
+      },
+      {
+        "name": "narrator",
+        "text": "Frankfurt liegt in der Mitte von Deutschland und hat den größten deutschen Flughafen. Der Flughafen ist über 100 Jahre alt. In Frankfurt starten und landen etwa 60 Millionen Pasagiere im Jahr."
+      },
+      {
+        "name": "narrator",
+        "text": "In Frankfurt gibt es zwei Universitäten und viele Hochschulen. Die größte Universität ist die Johann Wolfgang Goethe-Universität. Dort studieren ca. 47.000 Studenten. Eine bekannte private Hochschule ist die Frankfurt School of Finance & Management."
+      },
+      {
+        "name": "narrator",
+        "text": "Frankfurt hat 60 Museen, viele Theater und eine Oper. Im Städel Museum in Frankfurt sehen die Besucher über 1.000 Gemälde, darunter auch Bilder von Vincent van Gogh, Claude Monet und Gerhard Richter. @ * &  $ ^ % ( ) #"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "subtitle": "",
+    "number": "",
+    "audio": "https://www.schubert-verlag.de/spektrum/audio/14_spektrum_a1-1.mp3",
+    "convo": [
+      { "name": "", "text": "" },
+      { "name": "", "text": "" },
+      { "name": "", "text": "" }
+    ]
+  }
+]

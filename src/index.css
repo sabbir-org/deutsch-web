@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "react-h5-audio-player/lib/styles.css";
+@import "tailwindcss";
+
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+.animateIn {
+  animation: enter 0.2s ease-out forwards;
+}
+
+.animateOut {
+  animation: leave 0.2s ease-out forwards;
+}
+
+@keyframes enter {
+  0% {
+    opacity: 0;
+    scale: 0.96;
+    transform: translateY(5%);
+  }
+
+  100% {
+    scale: 1;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes leave {
+  0% {
+    scale: 1;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    scale: 0.96;
+    transform: translateY(5%);
+  }
+}

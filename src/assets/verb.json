@@ -1,0 +1,653 @@
+[
+  {
+    "word": "sein",
+    "infinitive": "sein",
+    "meaning": "be, exist",
+    "type": "verb",
+    "conjugation": {
+      "present": ["bin", "bist", "ist", "sind", "seid", "sind"],
+      "past": ["war", "warst", "war", "waren", "wart", "waren"],
+      "perfect": ["ist", "gewesen"]
+    }
+  },
+  {
+    "word": "kommen",
+    "infinitive": "kommen",
+    "meaning": "arrive, come",
+    "type": "verb",
+    "conjugation": {
+      "present": ["komme", "kommst", "kommt", "kommen", "kommt", "kommen"],
+      "past": ["kam", "kamst", "kam", "kamen", "kamt", "kamen"],
+      "perfect": ["ist", "gekommen"]
+    }
+  },
+
+  {
+    "word": "sprechen",
+    "infinitive": "sprechen",
+    "meaning": "speak, talk",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "spreche",
+        "sprichst",
+        "spricht",
+        "sprechen",
+        "sprecht",
+        "sprechen"
+      ],
+      "past": [
+        "sprach",
+        "sprachst",
+        "sprach",
+        "sprachen",
+        "spracht",
+        "sprachen"
+      ],
+      "perfect": ["hat", "gesprochen"]
+    }
+  },
+
+  {
+    "word": "machen",
+    "infinitive": "machen",
+    "meaning": "make, do",
+    "type": "verb",
+    "conjugation": {
+      "present": ["mache", "machst", "macht", "machen", "macht", "machen"],
+      "past": ["machte", "machtest", "machte", "machten", "machtet", "machten"],
+      "perfect": ["hat", "gemacht"]
+    }
+  },
+  {
+    "word": "lernen",
+    "infinitive": "lernen",
+    "meaning": "learn, study",
+    "type": "verb",
+    "conjugation": {
+      "present": ["lerne", "lernst", "lernt", "lernen", "lernt", "lernen"],
+      "past": ["lernte", "lerntest", "lernte", "lernten", "lerntet", "lernten"],
+      "perfect": ["hat", "gelernt"]
+    }
+  },
+  {
+    "word": "heißen",
+    "infinitive": "heißen",
+    "meaning": "be called, mean",
+    "type": "verb",
+    "conjugation": {
+      "present": ["heiße", "heißt", "heißt", "heißen", "heißt", "heißen"],
+      "past": ["hieß", "hießest", "hieß", "hießen", "hießet", "hießen"],
+      "perfect": ["hat", "geheißen"]
+    }
+  },
+  {
+    "word": "wohnen",
+    "infinitive": "wohnen",
+    "meaning": "live, stay",
+    "type": "verb",
+    "conjugation": {
+      "present": ["wohne", "wohnst", "wohnt", "wohnen", "wohnt", "wohnen"],
+      "past": ["wohnte", "wohntest", "wohnte", "wohnten", "wohntet", "wohnten"],
+      "perfect": ["hat", "gewohnt"]
+    }
+  },
+  {
+    "word": "unterrichten",
+    "infinitive": "unterrichten",
+    "meaning": "teach, educate",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "unterrichte",
+        "unterrichtest",
+        "unterrichtet",
+        "unterrichten",
+        "unterrichtet",
+        "unterrichten"
+      ],
+      "past": [
+        "unterrichtete",
+        "unterrichtetest",
+        "unterrichtete",
+        "unterrichteten",
+        "unterrichtetet",
+        "unterrichteten"
+      ],
+      "perfect": ["hat", "unterrichtet"]
+    }
+  },
+  {
+    "word": "arbeiten",
+    "infinitive": "arbeiten",
+    "meaning": "work, be employed",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "arbeite",
+        "arbeitest",
+        "arbeitet",
+        "arbeiten",
+        "arbeitet",
+        "arbeiten"
+      ],
+      "past": [
+        "arbeitete",
+        "arbeitetest",
+        "arbeitete",
+        "arbeiteten",
+        "arbeitetet",
+        "arbeiteten"
+      ],
+      "perfect": ["hat", "gearbeitet"]
+    }
+  },
+  {
+    "word": "präsentieren",
+    "infinitive": "präsentieren",
+    "meaning": "present, introduce",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "präsentiere",
+        "präsentierst",
+        "präsentiert",
+        "präsentieren",
+        "präsentiert",
+        "präsentieren"
+      ],
+      "past": [
+        "präsentierte",
+        "präsentiertest",
+        "präsentierte",
+        "präsentierten",
+        "präsentiertet",
+        "präsentierten"
+      ],
+      "perfect": ["hat", "präsentiert"]
+    }
+  },
+  {
+    "word": "leben",
+    "infinitive": "leben",
+    "meaning": "live, be alive",
+    "type": "verb",
+    "conjugation": {
+      "present": ["lebe", "lebst", "lebt", "leben", "lebt", "leben"],
+      "past": ["lebte", "lebtest", "lebte", "lebten", "lebtet", "lebten"],
+      "perfect": ["hat", "gelebt"]
+    }
+  },
+  {
+    "word": "lieben",
+    "infinitive": "lieben",
+    "meaning": "love, be in love",
+    "type": "verb",
+    "conjugation": {
+      "present": ["liebe", "liebst", "liebt", "lieben", "liebt", "lieben"],
+      "past": ["liebte", "liebtest", "liebte", "liebten", "liebtet", "liebten"],
+      "perfect": ["hat", "geliebt"]
+    }
+  },
+  {
+    "word": "schreiben",
+    "infinitive": "schreiben",
+    "meaning": "write",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "schreibe",
+        "schreibst",
+        "schreibt",
+        "schreiben",
+        "schreibt",
+        "schreiben"
+      ],
+      "past": [
+        "schrieb",
+        "schriebst",
+        "schrieb",
+        "schrieben",
+        "schriebt",
+        "schrieben"
+      ],
+      "perfect": ["hat", "geschrieben"]
+    }
+  },
+  {
+    "word": "spielen",
+    "infinitive": "spielen",
+    "meaning": "play, perform",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "spiele",
+        "spielst",
+        "spielt",
+        "spielen",
+        "spielt",
+        "spielen"
+      ],
+      "past": [
+        "spielte",
+        "spieltest",
+        "spielte",
+        "spielten",
+        "spieltet",
+        "spielten"
+      ],
+      "perfect": ["hat", "gespielt"]
+    }
+  },
+  {
+    "word": "kochen",
+    "infinitive": "kochen",
+    "meaning": "cook, boil",
+    "type": "verb",
+    "conjugation": {
+      "present": ["koche", "kochst", "kocht", "kochen", "kocht", "kochen"],
+      "past": ["kochte", "kochtest", "kochte", "kochten", "kochtet", "kochten"],
+      "perfect": ["hat", "gekocht"]
+    }
+  },
+  {
+    "word": "lesen",
+    "infinitive": "lesen",
+    "meaning": "read, lecture",
+    "type": "verb",
+    "conjugation": {
+      "present": ["lese", "liest", "liest", "lesen", "lest", "lesen"],
+      "past": ["las", "lasest", "las", "lasen", "laset", "lasen"],
+      "perfect": ["hat", "gelesen"]
+    }
+  },
+  {
+    "word": "hören",
+    "infinitive": "hören",
+    "meaning": "hear, listen",
+    "type": "verb",
+    "conjugation": {
+      "present": ["höre", "hörst", "hört", "hören", "hört", "hören"],
+      "past": ["hörte", "hörtest", "hörte", "hörten", "hörtet", "hörten"],
+      "perfect": ["hat", "gehört"]
+    }
+  },
+  {
+    "word": "malen",
+    "infinitive": "malen",
+    "meaning": "paint, draw, reflect",
+    "type": "verb",
+    "conjugation": {
+      "present": ["male", "malst", "malt", "malen", "malt", "malen"],
+      "past": ["malte", "maltest", "malte", "malten", "maltet", "malten"],
+      "perfect": ["hat", "gemalt"]
+    }
+  },
+  {
+    "word": "gehen",
+    "infinitive": "gehen",
+    "meaning": "go, walk",
+    "type": "verb",
+    "conjugation": {
+      "present": ["gehe", "gehst", "geht", "gehen", "geht", "gehen"],
+      "past": ["ging", "gingst", "ging", "gingen", "gingt", "gingen"],
+      "perfect": ["ist", "gegangen"]
+    }
+  },
+  {
+    "word": "möchten",
+    "infinitive": "möchten",
+    "meaning": "would like, want",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "möchte",
+        "möchtest",
+        "möchte",
+        "möchten",
+        "möchtet",
+        "möchten"
+      ],
+      "past": [
+        "möchtete",
+        "möchtetest",
+        "möchtete",
+        "möchteten",
+        "möchtetet",
+        "möchteten"
+      ],
+      "perfect": ["hat", "gemöchtet"]
+    }
+  },
+  {
+    "word": "trinken",
+    "infinitive": "trinken",
+    "meaning": "drink, consume",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "trinke",
+        "trinkst",
+        "trinkt",
+        "trinken",
+        "trinkt",
+        "trinken"
+      ],
+      "past": ["trank", "trankst", "trank", "tranken", "trankt", "tranken"],
+      "perfect": ["hat", "getrunken"]
+    }
+  },
+  {
+    "word": "nehmen",
+    "infinitive": "nehmen",
+    "meaning": "take, have",
+    "type": "verb",
+    "conjugation": {
+      "present": ["nehme", "nimmst", "nimmt", "nehmen", "nehmt", "nehmen"],
+      "past": ["nahm", "nahmst", "nahm", "nahmen", "nahmt", "nahmen"],
+      "perfect": ["hat", "genommen"]
+    }
+  },
+  {
+    "word": "zahlen",
+    "infinitive": "zahlen",
+    "meaning": "pay, make payment",
+    "type": "verb",
+    "conjugation": {
+      "present": ["zahle", "zahlst", "zahlt", "zahlen", "zahlt", "zahlen"],
+      "past": ["zahlte", "zahltest", "zahlte", "zahlten", "zahltet", "zahlten"],
+      "perfect": ["hat", "gezahlt"]
+    }
+  },
+  {
+    "word": "brauchen",
+    "infinitive": "brauchen",
+    "meaning": "need, require, use",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "brauche",
+        "brauchst",
+        "braucht",
+        "brauchen",
+        "braucht",
+        "brauchen"
+      ],
+      "past": [
+        "brauchte",
+        "brauchtest",
+        "brauchte",
+        "brauchten",
+        "brauchtet",
+        "brauchten"
+      ],
+      "perfect": ["hat", "gebraucht"]
+    }
+  },
+  {
+    "word": "verheiraten",
+    "infinitive": "verheiraten",
+    "meaning": "marry, get married",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "verheirate",
+        "verheiratest",
+        "verheiratet",
+        "verheiraten",
+        "verheiratet",
+        "verheiraten"
+      ],
+      "past": [
+        "verheiratete",
+        "verheiratetest",
+        "verheiratete",
+        "verheirateten",
+        "verheiratetet",
+        "verheirateten"
+      ],
+      "perfect": ["hat", "verheiratet"]
+    }
+  },
+  {
+    "word": "scheiden",
+    "infinitive": "scheiden",
+    "meaning": "depart, divorce",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "scheide",
+        "scheidest",
+        "scheidet",
+        "scheiden",
+        "scheidet",
+        "scheiden"
+      ],
+      "past": [
+        "schied",
+        "schiedest",
+        "schied",
+        "schieden",
+        "schiedet",
+        "schieden"
+      ],
+      "perfect": ["ist", "geschieden"]
+    }
+  },
+  {
+    "word": "trennen",
+    "infinitive": "trennen",
+    "meaning": "separate, detach",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "trenne",
+        "trennst",
+        "trennt",
+        "trennen",
+        "trennt",
+        "trennen"
+      ],
+      "past": [
+        "trennte",
+        "trenntest",
+        "trennte",
+        "trennten",
+        "trenntet",
+        "trennten"
+      ],
+      "perfect": ["hat", "getrennt"]
+    }
+  },
+  {
+    "word": "besuchen",
+    "infinitive": "besuchen",
+    "meaning": "visit, attend",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "besuche",
+        "besuchst",
+        "besucht",
+        "besuchen",
+        "besucht",
+        "besuchen"
+      ],
+      "past": [
+        "besuchte",
+        "besuchtest",
+        "besuchte",
+        "besuchten",
+        "besuchtet",
+        "besuchten"
+      ],
+      "perfect": ["hat", "besucht"]
+    }
+  },
+  {
+    "word": "hängen",
+    "infinitive": "hängen",
+    "meaning": "hang",
+    "type": "verb",
+    "conjugation": {
+      "present": ["hänge", "hängst", "hängt", "hängen", "hängt", "hängen"],
+      "past": ["hängte", "hängtest", "hängte", "hängten", "hängtet", "hängten"],
+      "perfect": ["hat", "gehängt"]
+    }
+  },
+  {
+    "word": "stimmen",
+    "infinitive": "stimmen",
+    "meaning": "be correct, vote",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "stimme",
+        "stimmst",
+        "stimmt",
+        "stimmen",
+        "stimmt",
+        "stimmen"
+      ],
+      "past": [
+        "stimmte",
+        "stimmtest",
+        "stimmte",
+        "stimmten",
+        "stimmtet",
+        "stimmten"
+      ],
+      "perfect": ["hat", "gestimmt"]
+    }
+  },
+  {
+    "word": "geben",
+    "infinitive": "geben",
+    "meaning": "give, add",
+    "type": "verb",
+    "conjugation": {
+      "present": ["gebe", "gibst", "gibt", "geben", "gebt", "geben"],
+      "past": ["gab", "gabst", "gab", "gaben", "gabt", "gaben"],
+      "perfect": ["hat", "gegeben"]
+    }
+  },
+  {
+    "word": "kosten",
+    "infinitive": "kosten",
+    "meaning": "be cost",
+    "type": "verb",
+    "conjugation": {
+      "present": ["koste", "kostest", "kostet", "kosten", "kostet", "kosten"],
+      "past": [
+        "kostete",
+        "kostetest",
+        "kostete",
+        "kosteten",
+        "kostetet",
+        "kosteten"
+      ],
+      "perfect": ["hat", "gekostet"]
+    }
+  },
+  {
+    "word": "stehen",
+    "infinitive": "stehen",
+    "meaning": "stand, suit, be",
+    "type": "verb",
+    "conjugation": {
+      "present": ["stehe", "stehst", "steht", "stehen", "steht", "stehen"],
+      "past": ["stand", "standest", "stand", "standen", "standet", "standen"],
+      "perfect": ["hat", "gestanden"]
+    }
+  },
+  {
+    "word": "Schönen",
+    "infinitive": "schönen",
+    "meaning": "brighten, clarify",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "schöne",
+        "schönst",
+        "schönt",
+        "schönen",
+        "schönt",
+        "schönen"
+      ],
+      "past": [
+        "schönte",
+        "schöntest",
+        "schönte",
+        "schönten",
+        "schöntet",
+        "schönten"
+      ],
+      "perfect": ["hat", "geschönt"]
+    }
+  },
+  {
+    "word": "sehen",
+    "infinitive": "sehen",
+    "meaning": "see, look",
+    "type": "verb",
+    "conjugation": {
+      "present": ["sehe", "siehst", "sieht", "sehen", "seht", "sehen"],
+      "past": ["sah", "sahst", "sah", "sahen", "saht", "sahen"],
+      "perfect": ["hat", "gesehen"]
+    }
+  },
+  {
+    "word": "liegen",
+    "infinitive": "liegen",
+    "meaning": "lie, be located, be situated",
+    "type": "verb",
+    "conjugation": {
+      "present": ["liege", "liegst", "liegt", "liegen", "liegt", "liegen"],
+      "past": ["lag", "lagst", "lag", "lagen", "lagt", "lagen"],
+      "perfect": ["hat", "gelegen"]
+    }
+  },
+  {
+    "word": "starten",
+    "infinitive": "starten",
+    "meaning": "start, depart",
+    "type": "verb",
+    "conjugation": {
+      "present": [
+        "starte",
+        "startest",
+        "startet",
+        "starten",
+        "startet",
+        "starten"
+      ],
+      "past": [
+        "startete",
+        "startetest",
+        "startete",
+        "starteten",
+        "startetet",
+        "starteten"
+      ],
+      "perfect": ["ist", "gestartet"]
+    }
+  },
+  {
+    "word": "landen",
+    "infinitive": "landen",
+    "meaning": "land, arrive",
+    "type": "verb",
+    "conjugation": {
+      "present": ["lande", "landest", "landet", "landen", "landet", "landen"],
+      "past": [
+        "landete",
+        "landetest",
+        "landete",
+        "landeten",
+        "landetet",
+        "landeten"
+      ],
+      "perfect": ["ist", "gelandet"]
+    }
+  }
+]

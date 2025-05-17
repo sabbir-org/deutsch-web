@@ -1,0 +1,375 @@
+[
+  {
+    "word": "Kaffee",
+    "infinitive": "der Kaffee",
+    "meaning": "coffee, cafe, coffee plant",
+    "type": "noun",
+    "plural": "Kaffees"
+  },
+  {
+    "word": "Lehrerin",
+    "infinitive": "die Lehrerin",
+    "meaning": "instructor, teacher, tutor",
+    "type": "noun",
+    "plural": "Lehrerinnen"
+  },
+  {
+    "word": "Manager",
+    "infinitive": "der Manager",
+    "meaning": "manager, executive",
+    "type": "noun",
+    "plural": "Manager"
+  },
+  {
+    "word": "Kind",
+    "infinitive": "das Kind",
+    "meaning": "child, kid, infant",
+    "type": "noun",
+    "plural": "Kinder"
+  },
+  {
+    "word": "Ingenieur",
+    "infinitive": "der Ingenieur",
+    "meaning": "engineer",
+    "type": "noun",
+    "plural": "Ingenieure"
+  },
+  {
+    "word": "Französischlehrerin",
+    "infinitive": "die Französischlehrerin",
+    "meaning": "French teacher",
+    "type": "noun",
+    "plural": "Französischlehrerinnen"
+  },
+  {
+    "word": "Frau",
+    "infinitive": "die Frau",
+    "meaning": "woman, wife, Mrs.",
+    "type": "noun",
+    "plural": "Frauen"
+  },
+  {
+    "word": "Mann",
+    "infinitive": "der Mann",
+    "meaning": "man, husband, Mr.",
+    "type": "noun",
+    "plural": "Männer"
+  },
+  {
+    "word": "Liebesroman",
+    "infinitive": "der Liebesroman",
+    "meaning": "romance, romantic novel",
+    "type": "noun",
+    "plural": "Liebesromane"
+  },
+  {
+    "word": "Tochter",
+    "infinitive": "die Tochter",
+    "meaning": "daughter",
+    "type": "noun",
+    "plural": "Töchter"
+  },
+  {
+    "word": "Schwester",
+    "infinitive": "die Schwester",
+    "meaning": "sister",
+    "type": "noun",
+    "plural": "Schwestern"
+  },
+  {
+    "word": "Sohn",
+    "infinitive": "der Sohn",
+    "meaning": "son",
+    "type": "noun",
+    "plural": "Söhne"
+  },
+  {
+    "word": "Geschwister",
+    "infinitive": "das Geschwister",
+    "meaning": "siblings",
+    "type": "noun",
+    "plural": "Geschwister"
+  },
+  {
+    "word": "Kommissar",
+    "infinitive": "der Kommissar",
+    "meaning": "commissioner, superintendent",
+    "type": "noun",
+    "plural": "Kommissare"
+  },
+  {
+    "word": "Onkel",
+    "infinitive": "der Onkel",
+    "meaning": "uncle",
+    "type": "noun",
+    "plural": "Onkel"
+  },
+  {
+    "word": "Stück",
+    "infinitive": "das Stück",
+    "meaning": "piece, part",
+    "type": "noun",
+    "plural": "Stücke/Stücker"
+  },
+  {
+    "word": "Überraschung",
+    "infinitive": "die Überraschung",
+    "meaning": "surprise, gift",
+    "type": "noun",
+    "plural": ""
+  },
+  {
+    "word": "Ärztin",
+    "infinitive": "die Ärztin",
+    "meaning": "female doctor",
+    "type": "noun",
+    "plural": "Ärztinnen"
+  },
+  {
+    "word": "Zentrum",
+    "infinitive": "das Zentrum",
+    "meaning": "center, hub",
+    "type": "noun",
+    "plural": "Zentren"
+  },
+  {
+    "word": "Analystin",
+    "infinitive": "die Analystin",
+    "meaning": "analyst",
+    "type": "noun",
+    "plural": "Analystinnen"
+  },
+
+  {
+    "word": "Datenanalystin",
+    "infinitive": "die Datenanalystin",
+    "meaning": "data analyst",
+    "type": "noun",
+    "plural": "Datenanalystinnen"
+  },
+  {
+    "word": "Konferenz",
+    "infinitive": "die Konferenz",
+    "meaning": "conference, meeting",
+    "type": "noun",
+    "plural": "Konferenzen"
+  },
+  {
+    "word": "Projekt",
+    "infinitive": "das Projekt",
+    "meaning": "project, venture",
+    "type": "noun",
+    "plural": "Projekte"
+  },
+  {
+    "word": "Museum",
+    "infinitive": "das Museum",
+    "meaning": "museum",
+    "type": "noun",
+    "plural": "Museen"
+  },
+  {
+    "word": "Malerei",
+    "infinitive": "die Malerei",
+    "meaning": "painting, picture",
+    "type": "noun",
+    "plural": "Malereien"
+  },
+  {
+    "word": "Bild",
+    "infinitive": "das Bild",
+    "meaning": "image, drawing",
+    "type": "noun",
+    "plural": "Bilder"
+  },
+  {
+    "word": "Idee",
+    "infinitive": "die Idee",
+    "meaning": "idea, concept",
+    "type": "noun",
+    "plural": "Ideen"
+  },
+  {
+    "word": "Einzelzimmer",
+    "infinitive": "das Einzelzimmer",
+    "meaning": "single room, apartment",
+    "type": "noun",
+    "plural": "Einzelzimmer"
+  },
+  {
+    "word": "Reservierung",
+    "infinitive": "die Reservierung",
+    "meaning": "reservation, arrangement, booking",
+    "type": "noun",
+    "plural": "Reservierungen"
+  },
+  {
+    "word": "Zimmer",
+    "infinitive": "das Zimmer",
+    "meaning": "room, accommodation, apartment",
+    "type": "noun",
+    "plural": "Zimmer"
+  },
+  {
+    "word": "Frühstück",
+    "infinitive": "das Frühstück",
+    "meaning": "breakfast",
+    "type": "noun",
+    "plural": "Frühstücke"
+  },
+  {
+    "word": "Preis",
+    "infinitive": "der Preis",
+    "meaning": "price",
+    "type": "noun",
+    "plural": "Preise"
+  },
+  {
+    "word": "Angaben",
+    "infinitive": "die Angabe",
+    "meaning": "specification, statement",
+    "type": "noun",
+    "plural": "Angaben"
+  },
+  {
+    "word": "Formular",
+    "infinitive": "das Formular",
+    "meaning": "form",
+    "type": "noun",
+    "plural": "Formulare"
+  },
+  {
+    "word": "Kreditkarte",
+    "infinitive": "die Kreditkarte",
+    "meaning": "credit card",
+    "type": "noun",
+    "plural": "Kreditkarten"
+  },
+  {
+    "word": "karte",
+    "infinitive": "die Karte",
+    "meaning": "card, map",
+    "type": "noun",
+    "plural": "Karten"
+  },
+
+  {
+    "word": "Zimmerkarte",
+    "infinitive": "die Zimmerkarte",
+    "meaning": "key card",
+    "type": "noun",
+    "plural": "Zimmerkarten"
+  },
+  {
+    "word": "Zimmernummer",
+    "infinitive": "die Zimmernummer",
+    "meaning": "room number",
+    "type": "noun",
+    "plural": "Zimmernummern"
+  },
+  {
+    "word": "Aufenthalt",
+    "infinitive": "der Aufenthalt",
+    "meaning": "stay, residence",
+    "type": "noun",
+    "plural": "Aufenthalte"
+  },
+  {
+    "word": "Stadt",
+    "infinitive": "die Stadt",
+    "meaning": "city, town",
+    "type": "noun",
+    "plural": "Städte"
+  },
+  {
+    "word": "Bundesland",
+    "infinitive": "das Bundesland",
+    "meaning": "state, federal state, federal land",
+    "type": "noun",
+    "plural": "Bundesländer"
+  },
+  {
+    "word": "Fluss",
+    "infinitive": "der Fluss",
+    "meaning": "flow, river, fluency",
+    "type": "noun",
+    "plural": "Flüsse"
+  },
+  {
+    "word": "Mensch",
+    "infinitive": "der Mensch",
+    "meaning": "human, individual",
+    "type": "noun",
+    "plural": "Menschen"
+  },
+  {
+    "word": "Besonderheit",
+    "infinitive": "die Besonderheit",
+    "meaning": "characteristic, special feature",
+    "type": "noun",
+    "plural": "Besonderheiten"
+  },
+  {
+    "word": "Hochhäuse",
+    "infinitive": "das Hochhaus",
+    "meaning": "skyscraper, high-rise, high-rise building",
+    "type": "noun",
+    "plural": "Hochhäuser"
+  },
+  {
+    "word": "Mitte",
+    "infinitive": "die Mitte",
+    "meaning": "middle",
+    "type": "noun",
+    "plural": "Mitten"
+  },
+  {
+    "word": "Flughafen",
+    "infinitive": "der Flughafen",
+    "meaning": "airport",
+    "type": "noun",
+    "plural": "Flughäfen"
+  },
+  {
+    "word": "Hochschule",
+    "infinitive": "die Hochschule",
+    "meaning": "college, university, academia",
+    "type": "noun",
+    "plural": "Hochschulen"
+  },
+  {
+    "word": "Oper",
+    "infinitive": "die Oper",
+    "meaning": "opera house",
+    "type": "noun",
+    "plural": "Opern"
+  },
+  {
+    "word": "Städel",
+    "infinitive": "der Stadel⁹",
+    "meaning": "barn",
+    "type": "noun",
+    "plural": "Städel"
+  },
+  {
+    "word": "Besucher",
+    "infinitive": "der Besucher",
+    "meaning": "visitor, guest",
+    "type": "noun",
+    "plural": "Besucher"
+  },
+  {
+    "word": "Gemälde",
+    "infinitive": "das Gemälde",
+    "meaning": "painting, canvas",
+    "type": "noun",
+    "plural": "Gemälde"
+  },
+  {
+    "word": "Börse",
+    "infinitive": "die Börse",
+    "meaning": "exchange, market",
+    "type": "noun",
+    "plural": "Börsen"
+  }
+]
