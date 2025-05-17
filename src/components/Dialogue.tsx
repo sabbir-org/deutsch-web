@@ -44,14 +44,14 @@ const Dialogue = ({ convo, image }: DialogueProps) => {
             {item.name !== "narrator" && (
               <p
                 className={`font-medium text-emerald-800`}
-                style={{ width: `calc(5% + ${maxWidth}ch)` }}
+                style={{ width: `calc(10px + ${maxWidth}ch)` }}
               >
                 {item.name}:
               </p>
             )}
 
             {image && <img src={image[index]} alt="" />}
-            <div className="w-[100%] lg:w-[40%] xl:w-[25%]">
+            <div className="w-[100%] md:w-[60%] lg:w-[45%] xl:w-[35%]">
               {words.map((word, i) => {
                 const cleanWord = word.replace(
                   /[.,\/@#!$%^&*;:{}=\-_`~()?'"]/g,
@@ -103,7 +103,7 @@ const Dialogue = ({ convo, image }: DialogueProps) => {
                   <span key={key}>
                     <span
                       ref={hoverIndex === key ? wordRef : null}
-                      className="relative cursor-pointer hidden lg:inline-block mr-[5px]"
+                      className="relative cursor-pointer hidden md:inline-block mr-[5px]"
                       onMouseEnter={(e) => openPopover(key)}
                       onMouseLeave={closePopover}
                     >
@@ -127,7 +127,7 @@ const Dialogue = ({ convo, image }: DialogueProps) => {
 
                     {/* mobile device */}
                     <span
-                      className="cursor-pointer lg:hidden mr-[5px] "
+                      className="cursor-pointer md:hidden mr-[5px] "
                       onClick={(e) => {
                         e.stopPropagation();
                         openPopover(key);

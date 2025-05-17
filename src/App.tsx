@@ -7,15 +7,18 @@ import { useEffect } from "react";
 import Finder from "./components/Finder";
 import { useModalStore } from "./store/modalStore";
 import { usePopoverStore } from "./store/popoverStore";
+import { useAudioStore } from "./store/audioStore";
 
 const App = () => {
   const { pathname } = useLocation();
 
   const { closeModal } = useModalStore();
   const { closePopover } = usePopoverStore();
+  const pauseAudio = useAudioStore((s) => s.pauseAudio);
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    pauseAudio();
   }, [pathname]);
 
   useEffect(() => {

@@ -15,12 +15,13 @@ type AudioState = {
   setPlaybackRate: (rate: number) => void;
   pauseOnHover: () => void;
   resumeOnHover: () => void;
+  pauseAudio: () => void;
 };
 
 export const useAudioStore = create<AudioState>((set, get) => ({
   activeAudioId: null,
   isPlaying: false,
-  playbackRate: 1,
+  playbackRate: 1.25,
   progress: 0,
   duration: 0,
   userPaused: false,
@@ -88,6 +89,13 @@ export const useAudioStore = create<AudioState>((set, get) => ({
     if (audio && activeAudioId && !isPlaying && !userPaused) {
       audio.play();
       set({ isPlaying: true });
+    }
+  },
+
+  pauseAudio: () => {
+    if (audio && !audio.paused) {
+      audio.pause();
+      set({ isPlaying: false, userPaused: true });
     }
   },
 }));
