@@ -2,7 +2,7 @@
   {
     "word": "vielleicht",
     "infinitive": "vielleicht",
-    "meaning": "maybe, perhaps",
+    "meaning": "maybe",
     "type": "adverb"
   },
   {
@@ -14,13 +14,13 @@
   {
     "word": "beruflich",
     "infinitive": "beruflich",
-    "meaning": "professional, occupational",
+    "meaning": "professionally",
     "type": "adjective"
   },
   {
     "word": "oft",
     "infinitive": "oft",
-    "meaning": "often, frequently",
+    "meaning": "often",
     "type": "adverb"
   },
   {
@@ -44,7 +44,7 @@
   {
     "word": "schön",
     "infinitive": "schön",
-    "meaning": "nice, beautiful",
+    "meaning": "beautiful",
     "type": "adjective"
   },
   {
@@ -56,61 +56,61 @@
   {
     "word": "berühmt",
     "infinitive": "berühmt",
-    "meaning": "celebrated, famous",
+    "meaning": "famous",
     "type": "adjective"
   },
   {
     "word": "früher",
     "infinitive": "früher",
-    "meaning": "early, initial",
+    "meaning": "early",
     "type": "adjective"
   },
   {
     "word": "danach",
     "infinitive": "danach",
-    "meaning": "after, afterwards",
+    "meaning": "afterwards",
     "type": "adverb"
   },
   {
     "word": "prima",
     "infinitive": "prima",
-    "meaning": "excellent, super, great",
+    "meaning": "excellent",
     "type": "adjective"
   },
   {
     "word": "heute",
     "infinitive": "heute",
     "type": "adverb",
-    "meaning": "today, now, nowadays"
+    "meaning": "today"
   },
   {
     "word": "herzlich",
     "infinitive": "herzlich",
-    "meaning": "cordial, friendly",
+    "meaning": "cordial",
     "type": "adjective"
   },
   {
     "word": "persönlichen",
     "infinitive": "persönlich",
-    "meaning": "personal, in person",
+    "meaning": "personal",
     "type": "adjective"
   },
   {
     "word": "oder",
     "infinitive": "oder",
-    "meaning": "or, either",
+    "meaning": "or",
     "type": "conjunction"
   },
   {
     "word": "natürlich",
     "infinitive": "natürlich",
-    "meaning": "natural, genuine, according to nature",
+    "meaning": "offcourse",
     "type": "adjective"
   },
   {
     "word": "willkommen",
     "infinitive": "willkommen",
-    "meaning": "welcome, pleasant",
+    "meaning": "welcome",
     "type": "adjective"
   },
   {
@@ -122,7 +122,7 @@
   {
     "word": "wichtiges",
     "infinitive": "wichtig",
-    "meaning": "significant, important",
+    "meaning": "important",
     "type": "adjective"
   },
   {
@@ -134,13 +134,13 @@
   {
     "word": "andere",
     "infinitive": "anderer",
-    "meaning": "another, other",
+    "meaning": "other",
     "type": "pronoun"
   },
   {
     "word": "manche",
     "infinitive": "mancher",
-    "meaning": "some, many",
+    "meaning": "many",
     "type": "article"
   },
   {
@@ -158,13 +158,13 @@
   {
     "word": "bekannte",
     "infinitive": "bekannt",
-    "meaning": "known, famous",
+    "meaning": "known",
     "type": "adjective"
   },
   {
     "word": "darunter",
     "infinitive": "darunter",
-    "meaning": "underneath, below",
+    "meaning": "below",
     "type": "adverb"
   }
 ]

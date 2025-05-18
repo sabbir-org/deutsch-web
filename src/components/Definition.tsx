@@ -1,6 +1,6 @@
 const Definition = ({ def }: { def: any }) => {
   return (
-    <div>
+    <>
       <div className={`flex justify-between gap-x-1 `}>
         <span>
           <h2 className={`font-semibold`}>
@@ -14,7 +14,7 @@ const Definition = ({ def }: { def: any }) => {
               </>
             )}
           </h2>
-          <p>{def.meaning} </p>
+          <p className={`font-medium text-lg text-emerald-800`}>{def.meaning} </p>
         </span>
 
         {def.conjugation && (
@@ -48,7 +48,7 @@ const Definition = ({ def }: { def: any }) => {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 export default Definition;

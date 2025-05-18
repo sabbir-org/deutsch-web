@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "react-h5-audio-player/lib/styles.css";
 @import "tailwindcss";
 
@@ -18,7 +18,7 @@ body {
 }
 
 .animateOut {
-  animation: leave 0.2s ease-out forwards;
+  animation: leave 0.1s ease-out forwards;
 }
 
 @keyframes enter {

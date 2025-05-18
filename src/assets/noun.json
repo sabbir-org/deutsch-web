@@ -2,28 +2,28 @@
   {
     "word": "Kaffee",
     "infinitive": "der Kaffee",
-    "meaning": "coffee, cafe, coffee plant",
+    "meaning": "coffee",
     "type": "noun",
     "plural": "Kaffees"
   },
   {
     "word": "Lehrerin",
     "infinitive": "die Lehrerin",
-    "meaning": "instructor, teacher, tutor",
+    "meaning": "instructor, teacher",
     "type": "noun",
     "plural": "Lehrerinnen"
   },
   {
     "word": "Manager",
     "infinitive": "der Manager",
-    "meaning": "manager, executive",
+    "meaning": "manager",
     "type": "noun",
     "plural": "Manager"
   },
   {
     "word": "Kind",
     "infinitive": "das Kind",
-    "meaning": "child, kid, infant",
+    "meaning": "child, kid",
     "type": "noun",
     "plural": "Kinder"
   },
@@ -93,7 +93,7 @@
   {
     "word": "Kommissar",
     "infinitive": "der Kommissar",
-    "meaning": "commissioner, superintendent",
+    "meaning": "commissioner",
     "type": "noun",
     "plural": "Kommissare"
   },
@@ -150,14 +150,14 @@
   {
     "word": "Konferenz",
     "infinitive": "die Konferenz",
-    "meaning": "conference, meeting",
+    "meaning": "conference",
     "type": "noun",
     "plural": "Konferenzen"
   },
   {
     "word": "Projekt",
     "infinitive": "das Projekt",
-    "meaning": "project, venture",
+    "meaning": "project",
     "type": "noun",
     "plural": "Projekte"
   },
@@ -171,42 +171,42 @@
   {
     "word": "Malerei",
     "infinitive": "die Malerei",
-    "meaning": "painting, picture",
+    "meaning": "painting",
     "type": "noun",
     "plural": "Malereien"
   },
   {
     "word": "Bild",
     "infinitive": "das Bild",
-    "meaning": "image, drawing",
+    "meaning": "image",
     "type": "noun",
     "plural": "Bilder"
   },
   {
     "word": "Idee",
     "infinitive": "die Idee",
-    "meaning": "idea, concept",
+    "meaning": "idea",
     "type": "noun",
     "plural": "Ideen"
   },
   {
     "word": "Einzelzimmer",
     "infinitive": "das Einzelzimmer",
-    "meaning": "single room, apartment",
+    "meaning": "single room",
     "type": "noun",
     "plural": "Einzelzimmer"
   },
   {
     "word": "Reservierung",
     "infinitive": "die Reservierung",
-    "meaning": "reservation, arrangement, booking",
+    "meaning": "reservation",
     "type": "noun",
     "plural": "Reservierungen"
   },
   {
     "word": "Zimmer",
     "infinitive": "das Zimmer",
-    "meaning": "room, accommodation, apartment",
+    "meaning": "room",
     "type": "noun",
     "plural": "Zimmer"
   },
@@ -270,49 +270,49 @@
   {
     "word": "Aufenthalt",
     "infinitive": "der Aufenthalt",
-    "meaning": "stay, residence",
+    "meaning": "stay",
     "type": "noun",
     "plural": "Aufenthalte"
   },
   {
     "word": "Stadt",
     "infinitive": "die Stadt",
-    "meaning": "city, town",
+    "meaning": "city",
     "type": "noun",
     "plural": "Städte"
   },
   {
     "word": "Bundesland",
     "infinitive": "das Bundesland",
-    "meaning": "state, federal state, federal land",
+    "meaning": "federal state",
     "type": "noun",
     "plural": "Bundesländer"
   },
   {
     "word": "Fluss",
     "infinitive": "der Fluss",
-    "meaning": "flow, river, fluency",
+    "meaning": "flow, river",
     "type": "noun",
     "plural": "Flüsse"
   },
   {
     "word": "Mensch",
     "infinitive": "der Mensch",
-    "meaning": "human, individual",
+    "meaning": "human",
     "type": "noun",
     "plural": "Menschen"
   },
   {
     "word": "Besonderheit",
     "infinitive": "die Besonderheit",
-    "meaning": "characteristic, special feature",
+    "meaning": "special feature",
     "type": "noun",
     "plural": "Besonderheiten"
   },
   {
     "word": "Hochhäuse",
     "infinitive": "das Hochhaus",
-    "meaning": "skyscraper, high-rise, high-rise building",
+    "meaning": "skyscraper",
     "type": "noun",
     "plural": "Hochhäuser"
   },
@@ -333,7 +333,7 @@
   {
     "word": "Hochschule",
     "infinitive": "die Hochschule",
-    "meaning": "college, university, academia",
+    "meaning": "college/university",
     "type": "noun",
     "plural": "Hochschulen"
   },
@@ -354,28 +354,28 @@
   {
     "word": "Besucher",
     "infinitive": "der Besucher",
-    "meaning": "visitor, guest",
+    "meaning": "visitor",
     "type": "noun",
     "plural": "Besucher"
   },
   {
     "word": "Gemälde",
     "infinitive": "das Gemälde",
-    "meaning": "painting, canvas",
+    "meaning": "canvas",
     "type": "noun",
     "plural": "Gemälde"
   },
   {
     "word": "Börse",
     "infinitive": "die Börse",
-    "meaning": "exchange, market",
+    "meaning": "exchange",
     "type": "noun",
     "plural": "Börsen"
   },
   {
     "word": "Passagiere",
     "infinitive": "der Passagier",
-    "meaning": "passenger, voyager",
+    "meaning": "passenger",
     "type": "noun",
     "plural": "Passagiere"
   }

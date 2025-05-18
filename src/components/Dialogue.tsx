@@ -1,9 +1,7 @@
-import Definition from "./Definition";
-import verb from "../assets/verb.json";
-import pos from "../assets/pos.json";
-import noun from "../assets/noun.json";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { usePopoverStore } from "../store/popoverStore";
+import findDefinition from "../utils/findDefinition";
+import WordModal from "./wordModal";
 
 type DialogueProps = {
   image: any;
@@ -16,24 +14,8 @@ type DialogueProps = {
 const Dialogue = ({ convo, image }: DialogueProps) => {
   const maxWidth = Math.max(...convo.map((item) => item.name.length));
   const wordRef = useRef<HTMLSpanElement>(null);
-  const [popoverPosition, setPopoverPosition] = useState<"top" | "bottom">(
-    "bottom"
-  );
 
-  const { closePopover, hoverIndex, isVisible, openPopover } =
-    usePopoverStore();
-
-  useEffect(() => {
-    if (isVisible && wordRef.current) {
-      const rect = wordRef.current.getBoundingClientRect();
-      const spaceBelow = window.innerHeight - rect.bottom;
-      const spaceAbove = rect.top;
-
-      setPopoverPosition(
-        spaceBelow < 400 && spaceAbove > 400 ? "top" : "bottom"
-      );
-    }
-  }, [isVisible, hoverIndex]);
+  const { closePopover, hoverIndex, openPopover } = usePopoverStore();
 
   return (
     <div>
@@ -51,6 +33,7 @@ const Dialogue = ({ convo, image }: DialogueProps) => {
             )}
 
             {image && <img src={image[index]} alt="" />}
+
             <div className="w-[100%] md:w-[60%] lg:w-[45%] xl:w-[35%]">
               {words.map((word, i) => {
                 const cleanWord = word.replace(
@@ -58,95 +41,41 @@ const Dialogue = ({ convo, image }: DialogueProps) => {
                   ""
                 );
 
-                let def;
-                const cleanVerb = cleanWord.toLowerCase();
-                def = verb.find((obj) => {
-                  if (obj.infinitive === cleanVerb) {
-                    return obj;
-                  }
-
-                  if (obj?.conjugation?.perfect[1] === cleanVerb) {
-                    return obj;
-                  }
-
-                  const v = obj?.conjugation?.present.find(
-                    (item) => item === cleanVerb
-                  );
-
-                  return (
-                    v ||
-                    obj?.conjugation?.past.find((item) => item === cleanVerb)
-                  );
-                });
-
-                if (!def) {
-                  def = pos.find((obj) => {
-                    if (obj.word === cleanVerb) {
-                      return obj;
-                    }
-                  });
-                }
-
-                if (!def) {
-                  def = noun.find((obj) => {
-                    if (obj.word === cleanWord) {
-                      return obj;
-                    }
-                    if (obj.plural === cleanWord) {
-                      return obj;
-                    }
-                  });
-                }
-
+                const def = findDefinition(cleanWord);
                 const key = `${index}-${i}`;
-                return def && cleanWord ? (
-                  <span key={key}>
-                    <span
-                      ref={hoverIndex === key ? wordRef : null}
-                      className="relative cursor-pointer hidden md:inline-block mr-[5px]"
-                      onMouseEnter={(e) => openPopover(key)}
-                      onMouseLeave={closePopover}
-                    >
-                      <span className="bg-amber-900/10 hover:bg-emerald-900/20 rounded  selection:bg-orange-900/50 select-none">
-                        {word}
-                      </span>
-                      {hoverIndex === key && (
-                        <div
-                          className={`absolute z-10 bg-white p-6 rounded-md border border-gray-200 shadow-md text-base ${
-                            popoverPosition === "top"
-                              ? "bottom-full mb-2"
-                              : "top-full mt-2"
-                          } left-0 min-w-[350px] ${
-                            isVisible ? "animateIn" : "animateOut"
-                          }`}
-                        >
-                          <Definition def={def}></Definition>
-                        </div>
-                      )}
-                    </span>
 
-                    {/* mobile device */}
-                    <span
-                      className="cursor-pointer md:hidden mr-[5px] "
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        openPopover(key);
-                      }}
-                    >
-                      <span className="bg-amber-900/15 hover:bg-orange-800/30 rounded  selection:bg-orange-900/50 select-none">
-                        {word}
+                return def && cleanWord ? (
+                  <div key={key} className={`inline`}>
+                    {hoverIndex === key && <WordModal def={def}></WordModal>}
+
+                    <span>
+                      <span
+                        ref={hoverIndex === key ? wordRef : null}
+                        className="relative cursor-pointer hidden md:inline-block mr-[5px]"
+                        onMouseEnter={(e) => {
+                          openPopover(key, e);
+                        }}
+                        onMouseLeave={closePopover}
+                      >
+                        <span className="bg-amber-900/10 hover:bg-emerald-900/20 rounded  selection:bg-orange-900/50 select-none">
+                          {word}
+                        </span>
                       </span>
-                      {hoverIndex === key && (
-                        <div
-                          className={`fixed z-10 bg-white p-6 rounded-md border border-gray-200 shadow-md text-base top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] sm:max-w-[350px] transition-all duration-100  ${
-                            isVisible ? "animateIn" : "animateOut"
-                          }`}
-                        >
-                          <Definition def={def}></Definition>
-                        </div>
-                      )}
+
+                      {/* mobile device */}
+                      <span
+                        className="cursor-pointer md:hidden mr-[5px] "
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          openPopover(key, e);
+                        }}
+                      >
+                        <span className="bg-amber-900/15 hover:bg-orange-800/30 rounded  selection:bg-orange-900/50 select-none">
+                          {word}
+                        </span>
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 ) : (
                   <span key={key}>{word} </span>
                 );

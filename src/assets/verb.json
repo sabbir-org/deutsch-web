@@ -2,7 +2,7 @@
   {
     "word": "sein",
     "infinitive": "sein",
-    "meaning": "be, exist",
+    "meaning": "be",
     "type": "verb",
     "conjugation": {
       "present": ["bin", "bist", "ist", "sind", "seid", "sind"],
@@ -13,7 +13,7 @@
   {
     "word": "kommen",
     "infinitive": "kommen",
-    "meaning": "arrive, come",
+    "meaning": "come",
     "type": "verb",
     "conjugation": {
       "present": ["komme", "kommst", "kommt", "kommen", "kommt", "kommen"],
@@ -25,7 +25,7 @@
   {
     "word": "sprechen",
     "infinitive": "sprechen",
-    "meaning": "speak, talk",
+    "meaning": "speak",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -62,7 +62,7 @@
   {
     "word": "lernen",
     "infinitive": "lernen",
-    "meaning": "learn, study",
+    "meaning": "learn",
     "type": "verb",
     "conjugation": {
       "present": ["lerne", "lernst", "lernt", "lernen", "lernt", "lernen"],
@@ -73,7 +73,7 @@
   {
     "word": "heißen",
     "infinitive": "heißen",
-    "meaning": "be called, mean",
+    "meaning": "be called",
     "type": "verb",
     "conjugation": {
       "present": ["heiße", "heißt", "heißt", "heißen", "heißt", "heißen"],
@@ -84,7 +84,7 @@
   {
     "word": "wohnen",
     "infinitive": "wohnen",
-    "meaning": "live, stay",
+    "meaning": "live",
     "type": "verb",
     "conjugation": {
       "present": ["wohne", "wohnst", "wohnt", "wohnen", "wohnt", "wohnen"],
@@ -95,7 +95,7 @@
   {
     "word": "unterrichten",
     "infinitive": "unterrichten",
-    "meaning": "teach, educate",
+    "meaning": "teach",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -120,7 +120,7 @@
   {
     "word": "arbeiten",
     "infinitive": "arbeiten",
-    "meaning": "work, be employed",
+    "meaning": "to work",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -145,7 +145,7 @@
   {
     "word": "präsentieren",
     "infinitive": "präsentieren",
-    "meaning": "present, introduce",
+    "meaning": "present",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -170,7 +170,7 @@
   {
     "word": "leben",
     "infinitive": "leben",
-    "meaning": "live, be alive",
+    "meaning": "live",
     "type": "verb",
     "conjugation": {
       "present": ["lebe", "lebst", "lebt", "leben", "lebt", "leben"],
@@ -181,7 +181,7 @@
   {
     "word": "lieben",
     "infinitive": "lieben",
-    "meaning": "love, be in love",
+    "meaning": "love",
     "type": "verb",
     "conjugation": {
       "present": ["liebe", "liebst", "liebt", "lieben", "liebt", "lieben"],
@@ -217,7 +217,7 @@
   {
     "word": "spielen",
     "infinitive": "spielen",
-    "meaning": "play, perform",
+    "meaning": "play",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -242,7 +242,7 @@
   {
     "word": "kochen",
     "infinitive": "kochen",
-    "meaning": "cook, boil",
+    "meaning": "cook",
     "type": "verb",
     "conjugation": {
       "present": ["koche", "kochst", "kocht", "kochen", "kocht", "kochen"],
@@ -253,7 +253,7 @@
   {
     "word": "lesen",
     "infinitive": "lesen",
-    "meaning": "read, lecture",
+    "meaning": "read",
     "type": "verb",
     "conjugation": {
       "present": ["lese", "liest", "liest", "lesen", "lest", "lesen"],
@@ -264,7 +264,7 @@
   {
     "word": "hören",
     "infinitive": "hören",
-    "meaning": "hear, listen",
+    "meaning": "listen",
     "type": "verb",
     "conjugation": {
       "present": ["höre", "hörst", "hört", "hören", "hört", "hören"],
@@ -275,7 +275,7 @@
   {
     "word": "malen",
     "infinitive": "malen",
-    "meaning": "paint, draw, reflect",
+    "meaning": "draw",
     "type": "verb",
     "conjugation": {
       "present": ["male", "malst", "malt", "malen", "malt", "malen"],
@@ -286,7 +286,7 @@
   {
     "word": "gehen",
     "infinitive": "gehen",
-    "meaning": "go, walk",
+    "meaning": "go",
     "type": "verb",
     "conjugation": {
       "present": ["gehe", "gehst", "geht", "gehen", "geht", "gehen"],
@@ -297,7 +297,7 @@
   {
     "word": "möchten",
     "infinitive": "möchten",
-    "meaning": "would like, want",
+    "meaning": "to want",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -322,7 +322,7 @@
   {
     "word": "trinken",
     "infinitive": "trinken",
-    "meaning": "drink, consume",
+    "meaning": "drink",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -340,7 +340,7 @@
   {
     "word": "nehmen",
     "infinitive": "nehmen",
-    "meaning": "take, have",
+    "meaning": "take",
     "type": "verb",
     "conjugation": {
       "present": ["nehme", "nimmst", "nimmt", "nehmen", "nehmt", "nehmen"],
@@ -351,7 +351,7 @@
   {
     "word": "zahlen",
     "infinitive": "zahlen",
-    "meaning": "pay, make payment",
+    "meaning": "to pay",
     "type": "verb",
     "conjugation": {
       "present": ["zahle", "zahlst", "zahlt", "zahlen", "zahlt", "zahlen"],
@@ -362,7 +362,7 @@
   {
     "word": "brauchen",
     "infinitive": "brauchen",
-    "meaning": "need, require, use",
+    "meaning": "need",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -437,7 +437,7 @@
   {
     "word": "trennen",
     "infinitive": "trennen",
-    "meaning": "separate, detach",
+    "meaning": "separate/detach",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -462,7 +462,7 @@
   {
     "word": "besuchen",
     "infinitive": "besuchen",
-    "meaning": "visit, attend",
+    "meaning": "visit",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -523,7 +523,7 @@
   {
     "word": "geben",
     "infinitive": "geben",
-    "meaning": "give, add",
+    "meaning": "give",
     "type": "verb",
     "conjugation": {
       "present": ["gebe", "gibst", "gibt", "geben", "gebt", "geben"],
@@ -552,7 +552,7 @@
   {
     "word": "stehen",
     "infinitive": "stehen",
-    "meaning": "stand, suit, be",
+    "meaning": "stand",
     "type": "verb",
     "conjugation": {
       "present": ["stehe", "stehst", "steht", "stehen", "steht", "stehen"],
@@ -563,7 +563,7 @@
   {
     "word": "Schönen",
     "infinitive": "schönen",
-    "meaning": "brighten, clarify",
+    "meaning": "brighten",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -588,7 +588,7 @@
   {
     "word": "sehen",
     "infinitive": "sehen",
-    "meaning": "see, look",
+    "meaning": "see",
     "type": "verb",
     "conjugation": {
       "present": ["sehe", "siehst", "sieht", "sehen", "seht", "sehen"],
@@ -599,7 +599,7 @@
   {
     "word": "liegen",
     "infinitive": "liegen",
-    "meaning": "lie, be located, be situated",
+    "meaning": "be located",
     "type": "verb",
     "conjugation": {
       "present": ["liege", "liegst", "liegt", "liegen", "liegt", "liegen"],
@@ -610,7 +610,7 @@
   {
     "word": "starten",
     "infinitive": "starten",
-    "meaning": "start, depart",
+    "meaning": "start/depart",
     "type": "verb",
     "conjugation": {
       "present": [
@@ -635,7 +635,7 @@
   {
     "word": "landen",
     "infinitive": "landen",
-    "meaning": "land, arrive",
+    "meaning": "land/arrive",
     "type": "verb",
     "conjugation": {
       "present": ["lande", "landest", "landet", "landen", "landet", "landen"],
