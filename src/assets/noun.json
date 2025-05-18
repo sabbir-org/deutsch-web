@@ -114,7 +114,7 @@
   {
     "word": "Überraschung",
     "infinitive": "die Überraschung",
-    "meaning": "surprise, gift",
+    "meaning": "surprise",
     "type": "noun",
     "plural": ""
   },
@@ -378,5 +378,33 @@
     "meaning": "passenger",
     "type": "noun",
     "plural": "Passagiere"
+  },
+  {
+    "word": "Schnitzel",
+    "infinitive": "das Schnitzel",
+    "meaning": "schnitzelc, cutlet",
+    "type": "noun",
+    "plural": "Schnitzel"
+  },
+  {
+    "word": "Lieblingsmaler",
+    "infinitive": "der Lieblingsmaler",
+    "meaning": "favourite painter",
+    "type": "noun",
+    "plural": "Lieblingsmaler"
+  },
+  {
+    "word": "Büro",
+    "infinitive": "das Büro",
+    "meaning": "office, agency",
+    "type": "noun",
+    "plural": "Büros"
+  },
+  {
+    "word": "Statistikerin",
+    "infinitive": "die Statistikerin",
+    "meaning": "female statistician",
+    "type": "noun",
+    "plural": "Statistikerinnen"
   }
 ]

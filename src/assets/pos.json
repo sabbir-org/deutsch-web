@@ -166,5 +166,53 @@
     "infinitive": "darunter",
     "meaning": "below",
     "type": "adverb"
+  },
+  {
+    "word": "lieber",
+    "infinitive": "lieber",
+    "meaning": "dear, prefer",
+    "type": "adjective"
+  },
+  {
+    "word": "wirklich",
+    "infinitive": "wirklich",
+    "meaning": "genuine, really",
+    "type": "adjective"
+  },
+  {
+    "word": "gern",
+    "infinitive": "gern",
+    "meaning": "gladly, like",
+    "type": "adverb"
+  },
+  {
+    "word": "zusammen",
+    "infinitive": "zusammen",
+    "meaning": "together",
+    "type": "adverb"
+  },
+  {
+    "word": "noch",
+    "infinitive": "noch",
+    "meaning": "yet, still",
+    "type": "adverb"
+  },
+  {
+    "word": "gerade",
+    "infinitive": "gerade",
+    "meaning": "just, straight",
+    "type": "adjective"
+  },
+  {
+    "word": "leider",
+    "infinitive": "leider",
+    "meaning": "unfortunately",
+    "type": "adjective"
+  },
+  {
+    "word": "wieder",
+    "infinitive": "wieder",
+    "meaning": "again, back",
+    "type": "adverb"
   }
 ]

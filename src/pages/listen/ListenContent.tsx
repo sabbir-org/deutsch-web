@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from "react-router";
 import Titles from "../../components/Titles";
 import AudioPlayer from "../../components/AudioPlayer";
-import Dialogue from "../../components/Dialogue";
+import Dialogue from "./Dialogue";
 import useConvoStore from "../../store/convoStore";
 
 const ListenContent = () => {

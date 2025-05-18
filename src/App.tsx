@@ -1,4 +1,4 @@
-import { Link, Route, Routes, useLocation } from "react-router";
+import { Route, Routes, useLocation } from "react-router";
 
 import Listen from "./pages/listen/Listen";
 import ListenContent from "./pages/listen/ListenContent";

@@ -19,7 +19,7 @@ const WordModal = ({ def }: WordModalProp) => {
     x: number | string;
     y: number | string;
   }>({ x: "100%", y: 0 }); // initial X out of the screen to avoid rapid show/hide cycles
-  const isMobile = useIsMobile();
+  const isMobile = useIsMobile(); // to detect small display. based on this word modal changes
 
   useEffect(() => {
     if (mouse.x === 0) return;
@@ -43,17 +43,19 @@ const WordModal = ({ def }: WordModalProp) => {
   return (
     <div
       ref={modalRef}
-      className={`fixed z-10 bg-white p-6 rounded-md border border-gray-200 shadow-md text-base min-w-[90%] md:min-w-[350px] pointer-events-none -translate-x-1/2 -translate-y-1/2 md:-translate-x-0 md:-translate-y-0 ${
+      className={`fixed z-10 bg-white p-6 rounded-md border border-gray-200 shadow-md text-base min-w-[90%] md:min-w-[250px] lg:min-w-[350px] pointer-events-none -translate-x-1/2 -translate-y-1/2 md:-translate-x-0 md:-translate-y-0 ${
         isVisible ? "animateIn" : "animateOut"
       }`}
       style={{
         top: modalPosition.y,
         left: modalPosition.x,
       }}
-    >
-      {/* modal pointer events none to avoid 
-                        over issue on the text */}
 
+      /**
+       * modal pointer events none to avoid 
+      over issue on the text
+       */
+    >
       <Definition def={def}></Definition>
     </div>
   );

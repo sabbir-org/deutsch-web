@@ -649,5 +649,16 @@
       ],
       "perfect": ["ist", "gelandet"]
     }
+  },
+  {
+    "word": "können",
+    "infinitive": "können",
+    "meaning": "can, be able to, be able",
+    "type": "verb",
+    "conjugation": {
+      "present": ["kann", "kannst", "kann", "können", "könnt", "können"],
+      "past": ["konnte", "konntest", "konnte", "konnten", "konntet", "konnten"],
+      "perfect": ["hat", "gekonnt"]
+    }
   }
 ]

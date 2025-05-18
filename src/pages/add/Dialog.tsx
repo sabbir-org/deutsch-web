@@ -1,12 +1,12 @@
 import { useForm, useFieldArray } from "react-hook-form";
-import { setDoc, doc } from "firebase/firestore";
-import { db } from "../../firebase/firebase";
 import { Minus, Plus } from "lucide-react";
 import Preview from "../../components/Preview";
 import { useState } from "react";
+import type { Conversation } from "../../utils/type";
+import TextArea from "../../components/TextArea";
 
 function Dialog() {
-  const { register, control, handleSubmit, reset } = useForm({
+  const { register, control, handleSubmit } = useForm({
     defaultValues: {
       title: "",
       subtitle: "",
@@ -17,8 +17,8 @@ function Dialog() {
     },
   });
 
-  const [previewData, setPreviewData] = useState({});
-
+  // preview modal states
+  const [previewData, setPreviewData] = useState<Conversation | null>(null);
   const [showPreview, setShowPreview] = useState(false);
 
   const { fields, append, remove } = useFieldArray({
@@ -42,14 +42,6 @@ function Dialog() {
       convo: data.convo,
     };
 
-    // try {
-    //   await setDoc(doc(db, "conversation", id), finalData);
-    //   alert("Conversation added!");
-    //   reset(); // clear form after success
-    // } catch (error) {
-    //   console.error("Error uploading:", error);
-    //   alert("Upload failed.");
-    // }
     setPreviewData(finalData);
     console.log(finalData);
   };
@@ -95,11 +87,7 @@ function Dialog() {
                 placeholder="Name"
                 className={`h-9 w-full px-2 outline-none bg-gray-100 rounded block`}
               />
-              <input
-                {...register(`convo.${index}.text`)}
-                placeholder="Text"
-                className={`h-9 w-full px-2 outline-none bg-gray-100 rounded block`}
-              />
+              <TextArea register={register} index={index}></TextArea>
             </div>
             {fields.length > 1 && (
               <button

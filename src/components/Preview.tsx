@@ -1,7 +1,14 @@
+import { usePersist } from "../hook/usePersist";
+import type { Conversation } from "../utils/type";
 import AudioPlayer from "./AudioPlayer";
 import Titles from "./Titles";
 
-const Preview = ({ previewData }) => {
+type PreviewProps = { previewData: Conversation | null };
+
+const Preview = ({ previewData }: PreviewProps) => {
+  const { upload } = usePersist();
+
+  if (!previewData) return null;
   return (
     <div
       className={`animateIn fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[700px] bg-white shadow rounded p-4`}
@@ -30,6 +37,13 @@ const Preview = ({ previewData }) => {
           </div>
         );
       })}
+
+      <button
+        onClick={() => upload(previewData)}
+        className={`bg-emerald-700 text-white px-4 py-1 rounded cursor-pointer hover:bg-emerald-800`}
+      >
+        add
+      </button>
     </div>
   );
 };
