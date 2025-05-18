@@ -37,14 +37,14 @@ const ListenContent = () => {
           onClick={() => navigate(`/listen/${prevId}`)}
           className={`cursor-pointer disabled:cursor-default disabled:bg-gray-500 bg-emerald-700 text-white px-4 py-1 rounded`}
         >
-          Previous
+          Vorherige
         </button>
         <button
           className={`cursor-pointer disabled:cursor-default disabled:bg-gray-500 bg-emerald-700 text-white px-4 py-1 rounded`}
           disabled={!nextId}
           onClick={() => navigate(`/listen/${nextId}`)}
         >
-          Next
+          Nächste
         </button>
       </div>
     </div>

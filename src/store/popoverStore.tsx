@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { useAudioStore } from "./audioStore";
+// import { useAudioStore } from "./audioStore";
 
 type PopoverStore = {
   isVisible: boolean;
@@ -9,7 +9,7 @@ type PopoverStore = {
   mouse: { x: number; y: number };
 };
 
-export const usePopoverStore = create<PopoverStore>((set, get) => ({
+export const usePopoverStore = create<PopoverStore>((set) => ({
   isVisible: false,
   hoverIndex: null,
   mouse: { x: 0, y: 0 },

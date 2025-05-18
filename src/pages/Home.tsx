@@ -9,7 +9,12 @@ const Home = () => {
       </h2>
       <p className={`font-medium`}>Integriertes Kurs- und Arbeitsbuch</p>
       <ul className={`mt-10 text-lg`}>
-        <Link to="/listen" className={`flex items-center gap-x-2`}><MoveRight/> Hören</Link>
+        <Link to="/listen" className={`flex items-center gap-x-2 group`}>
+          <MoveRight />{" "}
+          <span className={`group-hover:translate-x-2 transition-transform`}>
+            Hören
+          </span>
+        </Link>
       </ul>
     </div>
   );

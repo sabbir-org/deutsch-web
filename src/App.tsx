@@ -11,6 +11,7 @@ import { useAudioStore } from "./store/audioStore";
 import Dialog from "./pages/add/Dialog";
 import Add from "./pages/add/Add";
 import Vocab from "./pages/add/Vocab";
+import Layout from "./components/Layout";
 
 const App = () => {
   const { pathname } = useLocation();
@@ -25,7 +26,7 @@ const App = () => {
   }, [pathname]);
 
   useEffect(() => {
-    const handleClick = (e: MouseEvent) => {
+    const handleClick = () => {
       // You can add conditions here to exclude clicks on modals/popovers if needed
       closeModal();
       closePopover();
@@ -39,14 +40,7 @@ const App = () => {
   }, [closeModal, closePopover]);
 
   return (
-    <div className={`w-[90%] mx-auto mt-5 mb-20 `}>
-      <nav
-        className={`h-10 bg-emerald-700 text-white flex items-center px-4 gap-x-2 rounded mb-5`}
-      >
-        <Link to="/">Home</Link>
-        <Link to="/add">Add</Link>
-      </nav>
-
+    <Layout>
       <Finder></Finder>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -58,7 +52,7 @@ const App = () => {
           <Route path="vocab" element={<Vocab />} />
         </Route>
       </Routes>
-    </div>
+    </Layout>
   );
 };
 export default App;

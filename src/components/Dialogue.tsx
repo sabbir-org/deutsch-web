@@ -1,7 +1,7 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { usePopoverStore } from "../store/popoverStore";
 import findDefinition from "../utils/findDefinition";
-import WordModal from "./wordModal";
+import WordModal from "./WordModal";
 
 type DialogueProps = {
   image: any;
