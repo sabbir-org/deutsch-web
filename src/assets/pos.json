@@ -214,5 +214,17 @@
     "infinitive": "wieder",
     "meaning": "again, back",
     "type": "adverb"
+  },
+  {
+    "word": "großen",
+    "infinitive": "groß",
+    "meaning": "large, great",
+    "type": "adjective"
+  },
+  {
+    "word": "liebsten",
+    "infinitive": "lieb",
+    "meaning": "dear, prefer",
+    "type": "adjective"
   }
 ]

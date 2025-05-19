@@ -1,39 +1,46 @@
 import { X } from "lucide-react";
-import { usePersist } from "../hook/usePersist";
-import type { Conversation } from "../utils/type";
 import AudioPlayer from "./AudioPlayer";
 import Titles from "./Titles";
+import { useUploadStore } from "../store/uploadStore";
+import type { TPreviewData } from "../utils/type";
 
-type PreviewProps = { previewData: Conversation | null };
+type PreviewProps = {
+  previewDataPassed: TPreviewData | null;
+  uploadFunction: any;
+};
 
-const Preview = ({ previewData, setShowPreview }: PreviewProps) => {
-  const { upload } = usePersist();
+const Preview = ({ previewDataPassed, uploadFunction }: PreviewProps) => {
+  const { closePreview } = useUploadStore();
 
-  if (!previewData) return null;
-  console.log(previewData);
+  if (!previewDataPassed) return null;
+
+  console.log(previewDataPassed);
   return (
     <div
-      className={`animateIn fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[700px] bg-white shadow rounded p-4`}
+      className={`animateIn fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[700px] bg-white shadow rounded-md p-6`}
     >
       <Titles
-        title={previewData.title}
-        number={previewData.number}
-        subtitle={previewData.subtitle}
+        title={previewDataPassed.title}
+        number={previewDataPassed.number}
+        subtitle={previewDataPassed.subtitle}
       ></Titles>
 
-      <AudioPlayer id={previewData.id} src={previewData.audio}></AudioPlayer>
+      <AudioPlayer
+        id={previewDataPassed.id}
+        src={previewDataPassed.audio}
+      ></AudioPlayer>
 
       <button
         className={`absolute cursor-pointer top-4 right-4 text-gray-500`}
-        onClick={() => setShowPreview(false)}
+        onClick={closePreview}
       >
         <X className={`w-6 h-6`}></X>
       </button>
 
-      {previewData.convo.map((item, index) => {
+      {previewDataPassed.content.map((item, index) => {
         return (
           <div key={index} className={`md:flex gap-12 mb-4`}>
-            {item.name !== "narrator" && (
+            {item?.name && (
               <p
                 className={`font-medium text-emerald-800`}
                 style={{ width: `2%` }}
@@ -48,7 +55,7 @@ const Preview = ({ previewData, setShowPreview }: PreviewProps) => {
       })}
 
       <button
-        onClick={() => upload(previewData)}
+        onClick={() => uploadFunction(previewDataPassed)}
         className={`bg-emerald-700 text-white px-4 py-1 rounded cursor-pointer hover:bg-emerald-800`}
       >
         add

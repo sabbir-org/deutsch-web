@@ -653,12 +653,23 @@
   {
     "word": "können",
     "infinitive": "können",
-    "meaning": "can, be able to, be able",
+    "meaning": "can",
     "type": "verb",
     "conjugation": {
       "present": ["kann", "kannst", "kann", "können", "könnt", "können"],
       "past": ["konnte", "konntest", "konnte", "konnten", "konntet", "konnten"],
       "perfect": ["hat", "gekonnt"]
+    }
+  },
+  {
+    "word": "mag",
+    "infinitive": "mögen",
+    "meaning": "wish, want",
+    "type": "verb",
+    "conjugation": {
+      "present": ["mag", "magst", "mag", "mögen", "mögt", "mögen"],
+      "past": ["mochte", "mochtest", "mochte", "mochten", "mochtet", "mochten"],
+      "perfect": ["hat", "gemocht"]
     }
   }
 ]

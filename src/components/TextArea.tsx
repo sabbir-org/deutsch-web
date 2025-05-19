@@ -1,31 +1,24 @@
-import {useState } from "react";
-import type { UseFormRegister } from "react-hook-form";
+import { useState } from "react";
+import type { Path, UseFormRegister } from "react-hook-form";
 
-type InputProps = {
-  title: string;
-  subtitle: string;
-  number: string;
-  kapitel: string;
-  audio: string;
-  convo: {
-    name: string;
-    text: string;
-  }[];
-};
-type TextAreaProps = {
-  register: UseFormRegister<InputProps>;
-  setFocusIndex: React.Dispatch<React.SetStateAction<number>>
+type TextAreaProps<T extends { content: { text: string }[] }> = {
+  register: UseFormRegister<T>;
+  setFocusIndex: React.Dispatch<React.SetStateAction<number>>;
   index: number;
 };
 
-const TextArea = ({ register, index, setFocusIndex }: TextAreaProps) => {
+const TextArea = <T extends { content: { text: string }[] }>({
+  register,
+  index,
+  setFocusIndex,
+}: TextAreaProps<T>) => {
   // text area input states
   const [boxHeight, setboxHeight] = useState(80);
   const [target, setTarget] = useState(60);
 
   return (
     <textarea
-      {...register(`convo.${index}.text`)}
+      {...register(`content.${index}.text` as Path<T>)}
       placeholder="Text"
       onFocus={() => setFocusIndex(index)}
       onInput={(e) => {

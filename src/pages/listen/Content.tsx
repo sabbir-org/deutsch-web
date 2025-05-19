@@ -11,8 +11,8 @@ type DialogueProps = {
   }[];
 };
 
-const Dialogue = ({ convo, image }: DialogueProps) => {
-  const maxWidth = Math.max(...convo.map((item) => item.name.length));
+const Content = ({ convo, image }: DialogueProps) => {
+  const maxWidth = Math.max(...convo.map((item) => item.name?.length));
   const wordRef = useRef<HTMLSpanElement>(null);
 
   const { closePopover, hoverIndex, openPopover } = usePopoverStore();
@@ -23,7 +23,7 @@ const Dialogue = ({ convo, image }: DialogueProps) => {
         const words = item.text.split(/\s+/);
         return (
           <div key={index} className={`md:flex gap-12 mb-4`}>
-            {item.name !== "narrator" && (
+            {item.name && (
               <p
                 className={`font-medium text-emerald-800`}
                 style={{ width: `calc(10px + ${maxWidth}ch)` }}
@@ -31,9 +31,7 @@ const Dialogue = ({ convo, image }: DialogueProps) => {
                 {item.name}:
               </p>
             )}
-
             {image && <img src={image[index]} alt="" />}
-
             <div className="w-[100%] md:w-[60%] lg:w-[45%] xl:w-[35%]">
               {words.map((word, i) => {
                 const cleanWord = word.replace(
@@ -51,28 +49,27 @@ const Dialogue = ({ convo, image }: DialogueProps) => {
                     <span>
                       <span
                         ref={hoverIndex === key ? wordRef : null}
-                        className="relative cursor-pointer hidden md:inline-block mr-[5px]"
+                        className="relative cursor-pointer hidden md:inline-block"
                         onMouseEnter={(e) => {
                           openPopover(key, e);
                         }}
                         onMouseLeave={closePopover}
                       >
-                        <span className="bg-amber-900/10 hover:bg-emerald-900/20 rounded  selection:bg-orange-900/50 select-none">
+                        <span className="bg-amber-900/10 hover:bg-emerald-900/20 rounded  selection:bg-orange-900/50 ">
                           {word}
                         </span>
-                      </span>
-
+                      </span>{" "}
                       {/* mobile device */}
                       <span
-                        className="cursor-pointer md:hidden mr-[5px] "
+                        className="cursor-pointer md:hidden"
                         onClick={(e) => {
                           e.stopPropagation();
                           openPopover(key, e);
                         }}
                       >
-                        <span className="bg-amber-900/15 hover:bg-orange-800/30 rounded  selection:bg-orange-900/50 select-none">
+                        <span className="bg-amber-900/15 hover:bg-orange-800/30 rounded  selection:bg-orange-900/50">
                           {word}
-                        </span>
+                        </span>{" "}
                       </span>
                     </span>
                   </div>
@@ -87,4 +84,4 @@ const Dialogue = ({ convo, image }: DialogueProps) => {
     </div>
   );
 };
-export default Dialogue;
+export default Content;

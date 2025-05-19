@@ -5,6 +5,17 @@
 body {
   font-family: "roboto", sans-serif;
 }
+::selection {
+  background: #cadef1;
+  color: rgb(0, 0, 0);
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #cadef1;
+  color: rgb(0, 0, 0);
+  text-shadow: none;
+}
 
 .animateIn {
   animation: enter 0.2s ease-out forwards;
@@ -12,6 +23,10 @@ body {
 
 .animateOut {
   animation: leave 0.1s ease-out forwards;
+}
+
+button {
+  cursor: pointer;
 }
 
 @keyframes enter {

@@ -10,8 +10,8 @@ import { usePopoverStore } from "./store/popoverStore";
 import { useAudioStore } from "./store/audioStore";
 import Dialog from "./pages/add/Dialog";
 import Add from "./pages/add/Add";
-import Vocab from "./pages/add/Vocab";
 import Layout from "./components/Layout";
+import Narration from "./pages/add/Narration";
 
 const App = () => {
   const { pathname } = useLocation();
@@ -49,7 +49,7 @@ const App = () => {
         </Route>
         <Route path="/add" element={<Add></Add>}>
           <Route index element={<Dialog />} />
-          <Route path="vocab" element={<Vocab />} />
+          <Route path="narration" element={<Narration />} />
         </Route>
       </Routes>
     </Layout>

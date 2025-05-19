@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from "react-router";
 import Titles from "../../components/Titles";
 import AudioPlayer from "../../components/AudioPlayer";
-import Dialogue from "./Dialogue";
+import Content from "./Content";
 import useConvoStore from "../../store/convoStore";
 
 const ListenContent = () => {
@@ -19,7 +19,7 @@ const ListenContent = () => {
   if (!item) return <div>Not found</div>;
 
   return (
-    <div className={`text-lg`}>
+    <div className={`md:text-lg`}>
       <Titles
         title={item.title}
         subtitle={item.subtitle}
@@ -27,7 +27,7 @@ const ListenContent = () => {
       ></Titles>
       <AudioPlayer id={item.id} src={item.audio}></AudioPlayer>
 
-      <Dialogue convo={item.convo} image={item.image}></Dialogue>
+      <Content convo={item.convo} image={item.image}></Content>
 
       <div
         className={`flex gap-x-2 w-full mt-5 fixed bottom-0 bg-white h-20 left-0 justify-center items-center`}

@@ -406,5 +406,33 @@
     "meaning": "female statistician",
     "type": "noun",
     "plural": "Statistikerinnen"
+  },
+  {
+    "word": "Gerichte",
+    "infinitive": "das Gericht",
+    "meaning": "dish",
+    "type": "noun",
+    "plural": "Gerichte"
+  },
+  {
+    "word": "Käse",
+    "infinitive": "der Käse",
+    "meaning": "cheese",
+    "type": "noun",
+    "plural": "Käse"
+  },
+  {
+    "word": "Salami",
+    "infinitive": "die Salami",
+    "meaning": "salami",
+    "type": "noun",
+    "plural": "Salami"
+  },
+  {
+    "word": "Brot",
+    "infinitive": "das Brot",
+    "meaning": "bread",
+    "type": "noun",
+    "plural": "Brote"
   }
 ]

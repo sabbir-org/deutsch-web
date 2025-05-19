@@ -1,9 +1,9 @@
 import { useForm, useFieldArray } from "react-hook-form";
 import { Minus, Plus } from "lucide-react";
 import { useState } from "react";
-import TextArea from "../../components/TextArea";
 import { useUploadStore } from "../../store/uploadStore";
-import type { TDialogData } from "../../utils/type";
+import type { TNarrationData } from "../../utils/type";
+import TextArea from "../../components/TextArea";
 
 const umlauts = ["ü", "Ü", "ö", "Ö", "ä", "Ä", "ß"];
 
@@ -15,15 +15,12 @@ type formDataProps = {
   audio: string;
   customAudio: string;
   content: {
-    name: string;
+    title: string;
     text: string;
   }[];
 };
 
-function Dialog() {
-  /**
-   * input states
-   */
+function Narration() {
   const { register, control, handleSubmit, setValue, getValues } =
     useForm<formDataProps>({
       defaultValues: {
@@ -33,7 +30,7 @@ function Dialog() {
         kapitel: "",
         audio: "",
         customAudio: "",
-        content: [{ name: "", text: "" }],
+        content: [{ title: "", text: "" }],
       },
     });
 
@@ -50,10 +47,6 @@ function Dialog() {
     name: "content",
   });
 
-  /**
-   * preview data states
-   */
-
   const { updatePreviewData, openPreview } = useUploadStore();
 
   const onSubmit = async (data: any) => {
@@ -62,13 +55,13 @@ function Dialog() {
     const id = `${data.audio}_spektrum_a1_${teil}`;
     const audio = `https://www.schubert-verlag.de/spektrum/audio/${data.audio}_spektrum_a1-${teil}.mp3`;
 
-    const finalData: TDialogData = {
+    const finalData: TNarrationData = {
       id: id,
       title: data.title,
       subtitle: data.subtitle,
       number: data.number,
       audio: data.customAudio || audio,
-      type: "dialog",
+      type: "narration",
       content: data.content,
     };
     updatePreviewData(finalData);
@@ -118,18 +111,11 @@ function Dialog() {
         {fields.map((field, index) => (
           <div key={field.id} className={`flex items-center gap-x-2`}>
             <div className={`space-y-2 w-full`}>
-              <input
-                {...register(`content.${index}.name`)}
-                placeholder="Name"
-                className={`h-9 w-full px-2 outline-none bg-gray-100 rounded block`}
-              />
-
               <TextArea
                 register={register}
                 index={index}
                 setFocusIndex={setFocusIndex}
               ></TextArea>
-              
             </div>
             {fields.length > 1 && (
               <button
@@ -158,7 +144,7 @@ function Dialog() {
 
         <button
           type="button"
-          onClick={() => append({ name: "", text: "" })}
+          onClick={() => append({ title: "", text: "" })}
           className={`bg-gray-100 w-8 h-8 flex justify-center items-center rounded-full cursor-pointer`}
         >
           <Plus className={`text-emerald-800`}></Plus>
@@ -176,4 +162,4 @@ function Dialog() {
   );
 }
 
-export default Dialog;
+export default Narration;
