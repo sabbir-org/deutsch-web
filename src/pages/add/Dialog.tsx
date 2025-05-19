@@ -5,17 +5,28 @@ import { useState } from "react";
 import type { Conversation } from "../../utils/type";
 import TextArea from "../../components/TextArea";
 
+const umlauts = ["ü", "Ü", "ö", "Ö", "ä", "Ä", "ß"];
+
 function Dialog() {
-  const { register, control, handleSubmit } = useForm({
+  const { register, control, handleSubmit, setValue, getValues } = useForm({
     defaultValues: {
       title: "",
       subtitle: "",
       number: "",
       kapitel: "",
       audio: "",
+      customAudio: "",
       convo: [{ name: "", text: "" }],
     },
   });
+
+  const [focusIndex, setFocusIndex] = useState(0);
+
+  const handleInsertText = (text: string) => {
+    const current = getValues(`convo.${focusIndex}.text`) || "";
+    const updated = current + text;
+    setValue(`convo.${focusIndex}.text`, updated, { shouldDirty: true });
+  };
 
   // preview modal states
   const [previewData, setPreviewData] = useState<Conversation | null>(null);
@@ -38,12 +49,10 @@ function Dialog() {
       title: data.title,
       subtitle: data.subtitle,
       number: data.number,
-      audio: audio,
+      audio: data.customAudio || audio,
       convo: data.convo,
     };
-
     setPreviewData(finalData);
-    console.log(finalData);
   };
 
   return (
@@ -72,12 +81,19 @@ function Dialog() {
           className={`h-9 w-full px-2 outline-none bg-gray-100 rounded block`}
         />
 
-        <input
-          {...register("audio")}
-          placeholder="Audio (number inside headphone sign)"
-          className={`h-9 w-full px-2 outline-none bg-gray-100 rounded block`}
-        />
-
+        <div className={`flex items-center gap-x-2`}>
+          <input
+            {...register("audio")}
+            placeholder="Audio (number from book)"
+            className={`h-9 w-full px-2 outline-none bg-gray-100 rounded block`}
+          />
+          or
+          <input
+            {...register("customAudio")}
+            placeholder="Custom audio link"
+            className={`h-9 w-full px-2 outline-none bg-gray-100 rounded block`}
+          />
+        </div>
         <h2 className={`text-lg font-medium text-emerald-700`}>Dialogues</h2>
         {fields.map((field, index) => (
           <div key={field.id} className={`flex items-center gap-x-2`}>
@@ -87,7 +103,11 @@ function Dialog() {
                 placeholder="Name"
                 className={`h-9 w-full px-2 outline-none bg-gray-100 rounded block`}
               />
-              <TextArea register={register} index={index}></TextArea>
+              <TextArea
+                register={register}
+                index={index}
+                setFocusIndex={setFocusIndex}
+              ></TextArea>
             </div>
             {fields.length > 1 && (
               <button
@@ -100,6 +120,19 @@ function Dialog() {
             )}
           </div>
         ))}
+
+        <div className={`flex gap-x-2 mt-2`}>
+          {umlauts.map((item) => (
+            <button
+              key={item}
+              type="button"
+              className={`bg-gray-100 h-6 w-6 rounded cursor-pointer`}
+              onClick={() => handleInsertText(item)}
+            >
+              {item}
+            </button>
+          ))}
+        </div>
 
         <button
           type="button"
@@ -118,7 +151,7 @@ function Dialog() {
         </button>
       </form>
 
-      {showPreview && <Preview previewData={previewData}></Preview>}
+      {showPreview && <Preview previewData={previewData} setShowPreview={setShowPreview}></Preview>}
     </div>
   );
 }

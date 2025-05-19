@@ -1,3 +1,4 @@
+import { X } from "lucide-react";
 import { usePersist } from "../hook/usePersist";
 import type { Conversation } from "../utils/type";
 import AudioPlayer from "./AudioPlayer";
@@ -5,10 +6,11 @@ import Titles from "./Titles";
 
 type PreviewProps = { previewData: Conversation | null };
 
-const Preview = ({ previewData }: PreviewProps) => {
+const Preview = ({ previewData, setShowPreview }: PreviewProps) => {
   const { upload } = usePersist();
 
   if (!previewData) return null;
+  console.log(previewData);
   return (
     <div
       className={`animateIn fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[700px] bg-white shadow rounded p-4`}
@@ -20,6 +22,13 @@ const Preview = ({ previewData }: PreviewProps) => {
       ></Titles>
 
       <AudioPlayer id={previewData.id} src={previewData.audio}></AudioPlayer>
+
+      <button
+        className={`absolute cursor-pointer top-4 right-4 text-gray-500`}
+        onClick={() => setShowPreview(false)}
+      >
+        <X className={`w-6 h-6`}></X>
+      </button>
 
       {previewData.convo.map((item, index) => {
         return (

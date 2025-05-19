@@ -19,7 +19,7 @@ const ListenContent = () => {
   if (!item) return <div>Not found</div>;
 
   return (
-    <div>
+    <div className={`text-lg`}>
       <Titles
         title={item.title}
         subtitle={item.subtitle}
