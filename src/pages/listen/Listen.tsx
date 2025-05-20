@@ -1,10 +1,10 @@
 import { Navigate, Outlet, useLocation } from "react-router";
 
 import { useEffect } from "react";
-import useConvoStore from "../../store/convoStore";
+import useFireStore from "../../store/fireStore";
 
 const Listen = () => {
-  const { conversations, loading, fetchConversations } = useConvoStore();
+  const { conversations, loading, fetchConversations } = useFireStore();
   const location = useLocation();
 
   useEffect(() => {

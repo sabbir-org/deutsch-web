@@ -3,6 +3,7 @@ import AudioPlayer from "./AudioPlayer";
 import Titles from "./Titles";
 import { useUploadStore } from "../store/uploadStore";
 import type { TPreviewData } from "../utils/type";
+import { useAudioStore } from "../store/audioStore";
 
 type PreviewProps = {
   previewDataPassed: TPreviewData | null;
@@ -11,13 +12,14 @@ type PreviewProps = {
 
 const Preview = ({ previewDataPassed, uploadFunction }: PreviewProps) => {
   const { closePreview } = useUploadStore();
+  const { pauseAudio } = useAudioStore();
 
   if (!previewDataPassed) return null;
 
   console.log(previewDataPassed);
   return (
     <div
-      className={`animateIn fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[700px] bg-white shadow rounded-md p-6`}
+      className={`animateIn fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[700px] bg-white shadow-md rounded-md p-6`}
     >
       <Titles
         title={previewDataPassed.title}
@@ -32,7 +34,10 @@ const Preview = ({ previewDataPassed, uploadFunction }: PreviewProps) => {
 
       <button
         className={`absolute cursor-pointer top-4 right-4 text-gray-500`}
-        onClick={closePreview}
+        onClick={() => {
+          pauseAudio();
+          closePreview();
+        }}
       >
         <X className={`w-6 h-6`}></X>
       </button>

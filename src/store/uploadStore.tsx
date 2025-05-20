@@ -27,7 +27,7 @@ export const useUploadStore = create<UploadStore>((set, get) => ({
     }
 
     try {
-      await setDoc(doc(db, "conversation", data.id), data);
+      await setDoc(doc(db, "aufgabehoren", data.id), data);
       return { success: true };
     } catch (err) {
       if (err instanceof Error) set({ error: err.message });

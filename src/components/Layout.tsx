@@ -7,14 +7,14 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div>
       <nav
-        className={`h-16  flex items-center gap-x-2 rounded mb-5 border-b border-gray-100`}
+        className={`h-16  flex items-center gap-x-2 rounded border-b border-gray-100`}
       >
         <div className={`w-[90%] mx-auto space-x-4`}>
           <CustomLink to="/">Home</CustomLink>
           <CustomLink to="/add">Add</CustomLink>
         </div>
 
-        <div className={`mr-8 text-xl font-bold text-emerald-700`}>
+        <div className={`absolute right-5 text-xl font-bold text-emerald-700`}>
           <h2 className={`hidden sm:block md:hidden lg:hidden xl:hidden`}>
             sm
           </h2>
@@ -23,7 +23,7 @@ const Layout = ({ children }: LayoutProps) => {
           <h2 className={`hidden xl:block`}>xl</h2>
         </div>
       </nav>
-      <div className={`w-[90%] mx-auto mt-5 mb-20 `}>{children}</div>
+      <div className={`w-[90%] mx-auto mb-20 mt-5`}>{children}</div>
     </div>
   );
 };

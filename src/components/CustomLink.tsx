@@ -5,7 +5,13 @@ function CustomLink({ children, to, ...props }: LinkProps) {
   let match = useMatch({ path: resolved.pathname, end: true });
 
   return (
-    <Link to={to} className={`${match ? "bg-emerald-700 text-white" : ""} px-4 py-1 rounded`} {...props}>
+    <Link
+      to={to}
+      {...props}
+      className={`${
+        match ? "bg-emerald-700 text-white" : ""
+      } px-4 py-1 rounded`}
+    >
       {children}
     </Link>
   );

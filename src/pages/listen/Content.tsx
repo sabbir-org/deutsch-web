@@ -5,21 +5,22 @@ import WordModal from "../../components/WordModal";
 
 type DialogueProps = {
   image: any;
-  convo: {
-    name: string;
+  content: {
+    name?: string;
+    title?: string;
     text: string;
   }[];
 };
 
-const Content = ({ convo, image }: DialogueProps) => {
-  const maxWidth = Math.max(...convo.map((item) => item.name?.length));
+const Content = ({ content, image }: DialogueProps) => {
+  const maxWidth = Math.max(...content.map((item) => item.name?.length || 0));
   const wordRef = useRef<HTMLSpanElement>(null);
 
   const { closePopover, hoverIndex, openPopover } = usePopoverStore();
 
   return (
     <div>
-      {convo.map((item, index) => {
+      {content.map((item, index) => {
         const words = item.text.split(/\s+/);
         return (
           <div key={index} className={`md:flex gap-12 mb-4`}>
@@ -31,6 +32,8 @@ const Content = ({ convo, image }: DialogueProps) => {
                 {item.name}:
               </p>
             )}
+
+            {item.title && <p className={`font-medium`}>{item.title}</p>}
             {image && <img src={image[index]} alt="" />}
             <div className="w-[100%] md:w-[60%] lg:w-[45%] xl:w-[35%]">
               {words.map((word, i) => {

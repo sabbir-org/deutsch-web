@@ -12,6 +12,8 @@ import Dialog from "./pages/add/Dialog";
 import Add from "./pages/add/Add";
 import Layout from "./components/Layout";
 import Narration from "./pages/add/Narration";
+import Solution from "./pages/solution/Solution";
+import Kapitel from "./pages/solution/Kapitel";
 
 const App = () => {
   const { pathname } = useLocation();
@@ -50,6 +52,9 @@ const App = () => {
         <Route path="/add" element={<Add></Add>}>
           <Route index element={<Dialog />} />
           <Route path="narration" element={<Narration />} />
+        </Route>
+        <Route path="/solution" element={<Solution />}>
+          <Route path=":id" element={<Kapitel />} />
         </Route>
       </Routes>
     </Layout>

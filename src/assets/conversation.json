@@ -5,7 +5,7 @@
     "subtitle": "Hören und lesen Sie. ",
     "number": "2a",
     "audio": "https://www.schubert-verlag.de/spektrum/audio/03_spektrum_a1-1.mp3",
-    "convo": [
+    "content": [
       {
         "name": "Christian",
         "text": "Guten Tag. Ich heiße Christian Fröhlich. Ich komme aus Deutschland. Wie heißen Sie?"
@@ -26,7 +26,7 @@
     "subtitle": "Hören und lesen Sie. ",
     "number": "2b",
     "audio": "https://www.schubert-verlag.de/spektrum/audio/04_spektrum_a1-1.mp3",
-    "convo": [
+    "content": [
       {
         "name": "Christian",
         "text": "Hallo! Ich heiße Christian Fröhlich.Wie heißen Sie?"
@@ -41,7 +41,7 @@
     "subtitle": "Hören und lesen Sie die Dialoge. ",
     "number": "4a",
     "audio": "https://www.schubert-verlag.de/spektrum/audio/05_spektrum_a1-1.mp3",
-    "convo": [
+    "content": [
       {
         "name": "Frau Richter",
         "text": "Guten Tag. Mein Name ist Lydia Richter.Wie heißen Sie?"
@@ -71,7 +71,7 @@
     "subtitle": "Hören und lesen Sie den Dialog.",
     "number": "18a",
     "audio": "https://www.schubert-verlag.de/spektrum/audio/14_spektrum_a1-1.mp3",
-    "convo": [
+    "content": [
       { "name": "Susanne", "text": "Hallo, ich bin Susanne." },
       {
         "name": "Marie",
@@ -104,7 +104,7 @@
     "subtitle": "Hören und lesen Sie den Dialog",
     "number": "4a",
     "audio": "https://www.schubert-verlag.de/spektrum/audio/16_spektrum_a1-1.mp3",
-    "convo": [
+    "content": [
       {
         "name": "Peter Schneider",
         "text": "Hallo, ich bin Peter Schneider.Wie ist Ihr Name?"
@@ -156,37 +156,37 @@
       "6": "https://i.ibb.co/M0nBT9J/Screenshot-2025-05-16-143131.png",
       "7": "https://i.ibb.co/x8zTCVwQ/Screenshot-2025-05-16-143143.png"
     },
-    "convo": [
+    "content": [
       {
-        "name": "narrator",
+        "title": "",
         "text": "Das sind Peter, Lucie, Sarah und Felix. Peter und Lucie sind die Eltern von Sarah und Felix.Sarah und Felix sind die Kinder von Peter und Lucie."
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "Das ist Peter, der Mann von Lucie. Peter arbeitet als Ingenieur bei Siemens. Seine Muttersprache ist Deutsch, er spricht auch Englisch und Französisch. Peter ist verheiratet. Er liebt seine Frau Lucie sehr. Peter kocht gern."
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "Das ist Lucie, die Frau von Peter. Lucie ist Französischlehrerin. Sie kommt aus Frankreich, ihre Muttersprache ist Französisch. Sie spricht auch sehr gut Deutsch und Italienisch. Sie liebt Peter sehr. Lucie liest gern Liebesromane."
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "Das ist Sarah, die Tochter von Peter und Lucie, die Schwester von Felix. Sie ist 13 Jahre alt und hört gern Popmusik. Sarah kocht auch gern, wie ihr Vater."
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "Das ist Felix, der Sohn von Peter und Lucie, der Bruder von Sarah. Er ist zehn Jahre alt und spielt gern Computerspiele. Felix spricht perfekt Französisch, wie seine Mutter. "
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "Das sind Susanne und Ben. Susanne und Ben sind die Geschwister von Peter."
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "Das ist Ben, der Bruder von Peter, der Onkel von Sarah und Felix. Er arbeitet als Kommissar bei der Polizei. Ben ist geschieden und lebt jetzt allein in Köln. Ben spielt gern Gitarre. "
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "Das ist Susanne. Sie ist die Schwester von Peter und die Tante von Sarah und Felix. Susanne ist ledig, sie lebt im Moment mit Edwin zusammen in Berlin. Sie ist Journalistin und schreibt viele Artikel. "
       }
     ]
@@ -197,7 +197,7 @@
     "subtitle": "Hören und lesen Sie den Dialog",
     "number": "2a",
     "audio": "https://www.schubert-verlag.de/spektrum/audio/32_spektrum_a1-1.mp3",
-    "convo": [
+    "content": [
       { "name": "Hilde", "text": "Hallo Emma." },
       { "name": "Emma", "text": "Hallo Hilde. Wie geht es dir?" },
       { "name": "Hilde", "text": "Danke, gut. Und wie geht es dir?" },
@@ -259,7 +259,7 @@
     "subtitle": "Hören Sie den Dialog noch einmal und lesen Sie",
     "number": "9b",
     "audio": "https://www.schubert-verlag.de/spektrum/audio/33_spektrum_a1-1.mp3",
-    "convo": [
+    "content": [
       { "name": "Andreas", "text": "Hallo Petra." },
       {
         "name": "Petra",
@@ -321,7 +321,7 @@
     "subtitle": "Hären Sie den kurzen Dialog",
     "number": "9d",
     "audio": "https://www.schubert-verlag.de/spektrum/audio/34_spektrum_a1-1.mp3",
-    "convo": [
+    "content": [
       {
         "name": "Petra",
         "text": "Hallo Andreas, so eine Überraschung! Was machst du hier? "
@@ -348,7 +348,7 @@
     "subtitle": "Hören und lesen Sie den Dialog. ",
     "number": "15a",
     "audio": "https://www.schubert-verlag.de/spektrum/audio/36_spektrum_a1-1.mp3",
-    "convo": [
+    "content": [
       {
         "name": "Rezeptionist",
         "text": "Guten Tag. Herzlich willkommen im Hotel Europa."
@@ -395,39 +395,27 @@
     "subtitle": "Hören und lesen Sie den Text.",
     "number": "20a",
     "audio": "https://www.schubert-verlag.de/spektrum/audio/40_spektrum_a1-1.mp3",
-    "convo": [
+    "content": [
       {
-        "name": "narrator",
+        "title": "",
         "text": "Frankfurt ist über 1200 Jahre alt. Die Stadt liegt im Bundesland Hessen am Fluss Main. In Frankfurt leben etwa 700.000 Menschen. Frankfurt am Main ist ein wichtiges internationales Finanzzentrum. In Frankfurt gibt es die Europäische Zentralbank, die Deutsche Bundesbank, die Frankfurter Börse, die Deutsche Bank, die Commerzbank und andere Banken."
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "Eine Besonderheit ist die Skyline von Frankfurt. Es gibt viele Hochhäuser, manche Leute sagen zu Frankfurt 'Mainhattan', manche sagen auch 'Bankfurt'"
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "Frankfurt liegt in der Mitte von Deutschland und hat den größten deutschen Flughafen. Der Flughafen ist über 100 Jahre alt. In Frankfurt starten und landen etwa 60 Millionen Passagiere im Jahr."
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "In Frankfurt gibt es zwei Universitäten und viele Hochschulen. Die größte Universität ist die Johann Wolfgang Goethe-Universität. Dort studieren ca. 47.000 Studenten. Eine bekannte private Hochschule ist die Frankfurt School of Finance & Management."
       },
       {
-        "name": "narrator",
+        "title": "",
         "text": "Frankfurt hat 60 Museen, viele Theater und eine Oper. Im Städel Museum in Frankfurt sehen die Besucher über 1.000 Gemälde, darunter auch Bilder von Vincent van Gogh, Claude Monet und Gerhard Richter. @ * &  $ ^ % ( ) #"
       }
-    ]
-  },
-  {
-    "id": "unique_spektrum_a1",
-    "title": "",
-    "subtitle": "",
-    "number": "",
-    "audio": "https://www.schubert-verlag.de/spektrum/audio/14_spektrum_a1-1.mp3",
-    "convo": [
-      { "name": "", "text": "" },
-      { "name": "", "text": "" },
-      { "name": "", "text": "" }
     ]
   }
 ]
