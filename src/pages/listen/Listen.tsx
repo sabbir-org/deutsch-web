@@ -1,11 +1,10 @@
-import { Navigate, Outlet, useLocation } from "react-router";
+import { Outlet } from "react-router";
 
 import { useEffect } from "react";
 import useFireStore from "../../store/fireStore";
 
 const Listen = () => {
-  const { conversations, loading, fetchConversations } = useFireStore();
-  const location = useLocation();
+  const { loading, fetchConversations } = useFireStore();
 
   useEffect(() => {
     fetchConversations();
@@ -13,13 +12,13 @@ const Listen = () => {
 
   if (loading) return <div>Loading...</div>;
 
-  if (
-    !loading &&
-    location.pathname.endsWith("/listen") &&
-    conversations.length > 0
-  ) {
-    return <Navigate to={`/listen/${conversations[0].id}`} replace />;
-  }
+  // if (
+  //   !loading &&
+  //   location.pathname.endsWith("/listen") &&
+  //   conversations.length > 0
+  // ) {
+  //   return <Navigate to={`/listen/${conversations[0].id}`} replace />;
+  // }
 
   return (
     <div>

@@ -7,10 +7,7 @@ const Home = () => {
       name: "Hören",
       link: "/listen",
     },
-    {
-      name: "Lösungsheft",
-      link: "/solution",
-    },
+
   ];
   return (
     <div>
@@ -20,7 +17,11 @@ const Home = () => {
       <p className={`font-medium`}>Integriertes Kurs- und Arbeitsbuch</p>
       <ul className={`mt-10 text-lg`}>
         {links.map((link) => (
-          <Link key={link.name} to={link.link} className={`flex items-center gap-x-2 group`}>
+          <Link
+            key={link.name}
+            to={link.link}
+            className={`flex items-center gap-x-2 group w-fit`}
+          >
             <MoveRight />{" "}
             <span className={`group-hover:translate-x-2 transition-transform`}>
               {link.name}

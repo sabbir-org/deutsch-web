@@ -43,3 +43,17 @@ export type TNarrationData = {
     }
   ];
 };
+
+export type TAnswer = {
+  aufgabe: string;
+  task: {
+    bold: string;
+    text: string;
+  }[];
+};
+
+export type TSolution = {
+  id: string;
+  kapitel: string;
+  answer: TAnswer[];
+};

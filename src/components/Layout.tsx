@@ -7,7 +7,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div>
       <nav
-        className={`h-16  flex items-center gap-x-2 rounded border-b border-gray-100`}
+        className={`h-16 sticky top-0  flex items-center gap-x-2 rounded border-b border-gray-100 bg-white`}
       >
         <div className={`w-[90%] mx-auto space-x-4`}>
           <CustomLink to="/">Home</CustomLink>

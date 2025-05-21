@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation } from "react-router";
+import { Navigate, Route, Routes, useLocation } from "react-router";
 
 import Listen from "./pages/listen/Listen";
 import ListenContent from "./pages/listen/ListenContent";
@@ -12,15 +12,15 @@ import Dialog from "./pages/add/Dialog";
 import Add from "./pages/add/Add";
 import Layout from "./components/Layout";
 import Narration from "./pages/add/Narration";
-import Solution from "./pages/solution/Solution";
-import Kapitel from "./pages/solution/Kapitel";
+import Solve from "./pages/add/Solve";
+import useIsMobile from "./hook/useIsMobile";
 
 const App = () => {
   const { pathname } = useLocation();
-
   const { closeModal } = useModalStore();
   const { closePopover } = usePopoverStore();
   const pauseAudio = useAudioStore((s) => s.pauseAudio);
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -43,18 +43,17 @@ const App = () => {
 
   return (
     <Layout>
-      <Finder></Finder>
+      {isMobile || <Finder></Finder>}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/listen" element={<Listen></Listen>}>
+          <Route index element={<Navigate to="03_spektrum_a1" replace />} />
           <Route path=":id" element={<ListenContent />} />
         </Route>
         <Route path="/add" element={<Add></Add>}>
           <Route index element={<Dialog />} />
           <Route path="narration" element={<Narration />} />
-        </Route>
-        <Route path="/solution" element={<Solution />}>
-          <Route path=":id" element={<Kapitel />} />
+          <Route path="solution" element={<Solve />} />
         </Route>
       </Routes>
     </Layout>
