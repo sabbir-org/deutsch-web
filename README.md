@@ -1,6 +1,709 @@
+- [kapitel1](#kapitel-1)
+- [kapitel2](#kapitel-2)
 - [kapitel3](#kapitel-3)
 - [kapitel4](#kapitel-4)
 - [kapitel5](#kapitel-5)
+
+# Kapitel 1
+
+### 5 b)
+
+- ich: heiße, komme, wohne
+- du: heißt, kommst, wohnst
+- Sie: heißen, kommen, wohnen
+
+### 7
+
+- Eva: Guten Tag. Mein Name ist Eva. Wie heißt du?
+- Eduardo: Ich heiße Eduardo.
+- Eva: Woher kommst du, Eduardo?
+- Eduardo: Ich komme aus Spanien. Und du?
+- Eva: Ich komme aus Deutschland. Ich wohne in Köln. Und wo wohnst du?
+- Eduardo: Ich wohne in Sevilla.
+
+### 9 b)
+
+- Städte in Deutschland: Hamburg, Leipzig, Stuttgart, Berlin, Köln, Frankfurt, München
+- Städte in Österreich: Linz, Wien, Innsbruck
+- Städte in der Schweiz: Bern, Zürich, Genf, Basel
+
+### 11
+
+- 2. kommt, in
+- 3. aus, Er, lernt
+- 4. ist, aus, spricht
+- 6. kommen, wohnen, lernen, gern
+- 7. sind, und, sprechen, Sie
+
+### Transkription Hörtext: Wer macht was?
+
+1. Das ist Tiago. Tiago kommt aus Portugal. Er wohnt in Lissabon. Er spricht Portugiesisch und Spanisch. Er lernt jetzt Japanisch. Tiago kocht gern.
+2. Das ist Steffi. Steffi kommt aus Deutschland. Sie wohnt in München. Sie spricht Deutsch und lernt jetzt Russisch. Sie spielt gern Tennis.
+3. Das ist Viktor. Viktor kommt aus Schweden. Er wohnt in Stockholm. Er spricht Schwedisch, Englisch und Dänisch. Jetzt lernt er Chinesisch. Viktor fotografiert gern.
+4. Das ist Max. Max kommt aus Österreich. Er wohnt in Graz. Er spricht Deutsch und Italienisch. Er hört gern Musik.
+5. Das sind Alexis und Yanis. Alexis und Yanis kommen aus Griechenland. Sie wohnen in Athen. Sie sprechen Griechisch und Englisch. Jetzt lernen sie Deutsch. Alexis und Yanis spielen gern Fußball.
+6. Das sind Lara und Anna. Lara und Anna sind aus der Schweiz. Sie wohnen in Bern. Sie sprechen Deutsch, Französisch und Italienisch. Sie lernen jetzt Englisch. Lara und Anna schwimmen gern.
+7. Das sind Dávid, Lili, Dóra, Fanni und Levente. Sie kommen aus Ungarn und wohnen in Budapest. Sie sprechen Ungarisch, Englisch und Französisch. Sie tanzen gern.
+
+### 13
+
+- ich wohne, du wohnst, er/sie wohnt, sie/Sie wohnen
+- ich spiele, du spielst, er/sie spielt, sie/Sie spielen
+- ich höre, du hörst, er/sie hört, sie/Sie hören
+- ich lerne, du lernst, er/sie lernt, sie/Sie lernen
+- ich heiße, du heißt, er/sie heißt, sie/Sie heißen
+- ich tanze, du tanzt, er/sie tanzt, sie/Sie tanzen
+- ich bin, du bist, er/sie ist, sie/Sie sind
+
+### 14
+
+- Ich spiele (nicht so) gern Computerspiele.
+
+1. Ich spiele (nicht so) gern Tennis.
+2. Ich höre (nicht so) gern Musik.
+3. Ich lerne (nicht so) gern Deutsch.
+4. Ich spiele (nicht so) gern Fußball.
+5. Ich tanze (nicht so) gern.
+6. Ich wohne (nicht so) gern in …
+7. Ich fotografiere (nicht so) gern.
+8. Ich koche (nicht so) gern.
+
+### 15
+
+- Das ist Franz. Er kommt aus Deutschland. Er wohnt in München. Er spricht Deutsch. Er spielt gern Fußball.
+- Das ist Martina. Sie kommt aus der Schweiz. Sie wohnt in Bern. Sie spricht Deutsch und Französisch. Sie lernt gern Sprachen.
+- Das sind Lars, Rasmus und Johan. Sie kommen aus Dänemark. Sie wohnen in Kopenhagen. Sie sprechen Dänisch, Schwedisch und Englisch. Sie spielen gern Jazz.
+
+### 17 b)
+
+- Welche Sprachen sprechen Sie?
+- Sprechen Sie Russisch?
+- Sprichst du Polnisch?
+
+### 18 c)
+
+1. Ja, wir sprechen Englisch.
+2. Ja, wir kochen gern.
+3. Ja, ich lerne Deutsch.
+4. Nein, wir wohnen in Athen.
+5. Ja, ich höre gern Musik.
+6. Nein, wir machen lieber Gymnastik.
+7. Ja, ich fotografiere gern.
+8. Nein, wir kommen aus Schweden.
+
+#### 18 d)
+
+1. du
+2. ihr
+3. Er
+4. Wir
+5. Sie
+6. Ich
+
+### 19 a)
+
+1. kommt, kommen
+2. Wohnt, wohnen
+3. macht, lernen
+4. sprecht, sprechen
+
+#### 19 b)
+
+- Wir wohnen in Prag.
+- Woher kommt ihr?
+- Welche Sprachen sprecht ihr noch?
+- Wohnt ihr in Prag?
+
+#### 19 c)
+
+1. Er wohnt in Athen.
+2. Ich spreche Spanisch.
+3. Wo wohnst du?
+4. Wir lernen jetzt Deutsch.
+5. Fotografiert ihr gern?
+
+### 20 a)
+
+1. Woher kommst du?/Woher kommen Sie?
+2. Wo wohnst du?/Wo wohnen Sie?
+3. Was machst du gern?/Was machen Sie gern?
+4. Welche Sprachen sprichst du?/Welche Sprachen sprechen Sie?
+5. Sprichst du ein bisschen Spanisch?/Sprechen Sie ein bisschen Spanisch?
+
+#### 20 b) Beispieldialog
+
+- A: Wie heißen Sie?
+- B: Ich heiße Paola Gomez. Und Sie?
+- A: Ich heiße Max Müller.
+- B: Woher kommen Sie?
+- A: Ich komme aus Deutschland. Und Sie?
+- B: Ich komme aus Spanien.
+- A: Wo wohnen Sie?
+- B: Ich wohne in Madrid. Und Sie?
+- A: Ich wohne in München.
+- B: Was machen Sie gern?
+- A: Ich schwimme gern. Und Sie?
+- B: Ich spiele gern Tennis.
+- A: Welche Sprachen sprechen Sie?
+- B: Ich spreche Spanisch, Französisch und Englisch. Und Sie?
+- A: Ich spreche Deutsch, Englisch und ein bisschen Spanisch.
+
+### 22 Begrüßung / Verabschiedung
+
+#### Begrüßung:
+
+1. Hallo!
+2. Grüß Gott!
+3. Servus!
+4. Guten Tag!
+
+#### Verabschiedung:
+
+1. Servus!
+2. Tschüss!
+3. Auf Wiedersehen!
+
+### Ü1
+
+1. Guten Tag!
+2. Tschüss!
+3. Danke. – Bitte.
+4. Guten Abend!
+5. Gute Nacht!
+
+### Ü2
+
+- Florian: Hallo! Ich bin Florian. Wie heißt du?
+- Lena: Ich heiße Lena.
+- Florian: Woher kommst du, Lena?
+- Lena: Ich komme aus Polen. Und du?
+- Florian: Ich komme aus der Schweiz. Ich wohne in Basel. Und wo wohnst du?
+- Lena: Ich wohne in Warschau.
+
+### Ü3
+
+1. Frau Gruber spielt gern Tennis.
+2. Herr Graf fotografiert gern.
+3. Herr Steiner kocht gern.
+4. Franzi und Emma schwimmen gern.
+
+### Ü4
+
+1. Du kommst aus Deutschland.
+2. Er wohnt in München.
+3. Ihr sprecht Deutsch und Englisch.
+4. Anna spielt Fußball.
+5. Wir kochen gern.
+6. Das sind Alexis und Yanis.
+
+### Ü5
+
+- Susanne: Hallo, ich bin Susanne.
+- Marie: Hallo, ich bin Marie, das ist Adam. Woher kommst du, Susanne?
+- Susanne: Ich komme aus Österreich, aus Wien. Und ihr? Woher kommt ihr?
+- Adam: Wir kommen aus Tschechien.
+- Susanne: Ah, aus Tschechien! Wohnt ihr in Prag?
+- Adam: Ja, wir wohnen in Prag.
+- Susanne: Was macht ihr hier in Berlin?
+- Marie: Wir lernen Deutsch.
+- Susanne: Toll! Welche Sprachen sprecht ihr noch?
+- Marie: Wir sprechen Tschechisch, Englisch und ein bisschen Russisch. Und du?
+- Susanne: Ich spreche Deutsch, Englisch und auch ein bisschen Russisch.
+- Marie: Du sprichst Russisch! Interessant!
+
+### Ü6
+
+1. Woher
+2. du
+3. Welche
+4. Was
+5. in
+6. ihr
+7. sprecht
+8. ihr
+9. Spielt
+10. heißen
+11. Sie
+12. machen
+13. kommen
+14. gern
+
+### Ü7
+
+1. spielen: Klavier, Tennis, Fußball, Volleyball
+2. sprechen: Dänisch, Portugiesisch, Japanisch
+3. lernen: Deutsch, schwimmen, sprechen
+
+### Ü8
+
+1. Wohnen Sie in Helsinki? – Nein, wir wohnen in Oslo.
+2. Lernt ihr Deutsch? – Nein, wir lernen Russisch.
+3. Kocht Laura gern? – Nein, sie macht lieber Sport.
+4. Spielt Oliver gern Fußball? – Nein, er schwimmt lieber.
+5. Ist Kathrin in Deutschland? – Nein, sie ist in Amerika.
+6. Kommen Carla und Norbert aus Zürich? – Nein, sie kommen aus Basel.
+7. Sprechen Sie Französisch? – Nein, ich spreche Englisch und Deutsch.
+
+### Ü9
+
+1. Woher kommen Sie? – Ich komme aus Österreich.
+2. Wo wohnen Sie? – Ich wohne in Wien.
+3. Welche Sprachen sprechen Sie? – Ich spreche Deutsch und Englisch.
+4. Was lernen Sie jetzt? – Ich lerne jetzt Japanisch.
+5. Was machen Sie gern? – Ich koche und schwimme gern.
+
+### Ü10
+
+- Beispieltexte:
+  - Das ist Diego Perez. Diego kommt aus Chile. Er wohnt in Santiago de Chile. Diego spricht Spanisch und Französisch. Er lernt jetzt Deutsch. Er spielt gern Gitarre und hört gern Musik.
+  - Das ist Tatjana Smirnow. Tatjana kommt aus Russland. Sie wohnt in Moskau. Tatjana spricht Russisch und Englisch. Sie lernt jetzt Deutsch. Sie spielt gern Tennis. Sie fotografiert gern.
+
+### T1
+
+1. ist
+2. Woher
+3. wohnt
+4. lernen
+5. du
+6. Tanzt
+7. Wir
+8. Welche (8 x 0,5 P.)
+
+### T2
+
+1. Sie
+2. Woher
+3. Wo
+4. Was
+5. Hören/Machen
+6. Welche
+7. Sprechen
+8. Spielen (8 x 1 P.)
+
+### T3
+
+1. Sie wohnt in Stockholm.
+2. Sie spricht Schwedisch, Englisch und Deutsch.
+3. Viktoria fotografiert gern.
+4. Sie lernt jetzt Französisch. (4 x 2 P.)
+
+# Kapitel 2
+
+### 2 a)
+
+- der Kellner – die Kellnerin
+- der Arzt – die Ärztin
+- der Informatiker – die Informatikerin
+- der Lehrer – die Lehrerin
+- der Assistent – die Assistentin
+- der Student – die Studentin
+- der Architekt – die Architektin
+- der Ingenieur – die Ingenieurin
+
+### 2 b)
+
+1. Später arbeitet er als Musiker.
+2. Später arbeitet er als Physiker.
+3. Später arbeitet sie als Köchin.
+4. Später arbeitet sie als Mathematikerin.
+5. Später arbeitet er als Journalist.
+6. Später arbeitet sie als Designerin.
+
+### 5
+
+1. h
+2. e
+3. c (j)
+4. a
+5. b
+6. d
+7. j (c)
+8. g
+9. k
+10. i
+
+### 10 a)
+
+1. Nein, das ist kein Autoschlüssel. Das ist ein Zimmerschlüssel. Das ist der Zimmerschlüssel von Edwin.
+2. Nein, das ist kein Sonnenschirm. Das ist ein Regenschirm. Das ist der Regenschirm von Susanne.
+3. Nein, das ist kein Volleyball. Das ist ein Fußball. Das ist der Fußball von Paul.
+4. Nein, das ist keine Gitarre. Das ist ein Cello. Das ist das Cello von Ludger.
+5. Nein, das ist kein Lehrbuch. Das ist ein Wörterbuch. Das ist das Wörterbuch von Juliane.
+6. Nein, das ist keine Tageszeitung. Das ist eine Modezeitschrift. Das ist die Modezeitschrift von Elena.
+
+### 10 c)
+
+1. Ist das deine Zeitung? – Ja, das ist meine Zeitung.
+2. Ist das deine Uhr? – Ja, das ist meine Uhr.
+3. Ist das dein Handy? – Nein, das ist das Handy von Frau Krause.
+4. Ist das dein Auto? – Ja, das ist mein Auto.
+5. Ist das dein Schlüssel? – Ja, das ist mein Schlüssel.
+6. Ist das dein Stuhl? – Nein, das ist der Stuhl von Jürgen.
+7. Ist das dein Lehrbuch? – Ja, das ist mein Lehrbuch.
+
+### 11 b)
+
+**In Büro A:**
+
+- ein Stuhl, ein Drucker, eine Kaffeemaschine, ein Handy, eine Brille, ein Stift, ein Telefon, ein Kalender, ein Laptop, eine Tasse, ein Schreibtisch, eine Lampe
+- kein Computer, kein Regenschirm, kein Bild, kein Bildschirm
+
+**In Büro B:**
+
+- ein Stuhl, ein Computer, ein Drucker, eine Kaffeemaschine, eine Tasse, ein Stift, ein Telefon, ein Regenschirm, ein Bild, ein Bildschirm, ein Schreibtisch, eine Lampe
+- kein Handy, kein Laptop, keine Brille, kein Kalender
+
+### 12 b)
+
+- der Drucker – ein Drucker – kein Drucker – mein Drucker
+- die Tasche – eine Tasche – keine Tasche – meine Tasche
+- das Auto – ein Auto – kein Auto – mein Auto
+
+### 13
+
+- Das ist meine Zeitung.
+- Was ist deine Muttersprache?
+- Ist das eine Modezeitschrift?
+- Ich studiere in Leipzig.
+- Frau Müller schreibt viele E-Mails.
+- Knut liest gern.
+
+### 15 a)
+
+1. 18 Stühle
+2. 17 Stifte
+3. 2 Drucker
+4. 12 Schlüssel
+5. 21 Tassen
+6. 4 Zeitungen
+7. 8 Bilder
+8. 5 Computer
+9. 6 Lampen
+10. 7 Regenschirme
+11. 45 Bücher
+12. 14 Taschen
+13. 9 Handys
+14. 3 Tische
+15. 13 Laptops
+
+### 15 c)
+
+- -(e)n: die Tassen – die Tasse, die Zeitungen – die Zeitung, die Lampen – die Lampe, die Taschen – die Tasche
+- -e: die Stifte – der Stift, die Regenschirme – der Regenschirm, die Tische – der Tisch
+- --: die Schlüssel – der Schlüssel, die Computer – der Computer
+- -s: die Laptops – der Laptop
+- -er: die Bilder – das Bild
+
+### 16 a)
+
+**Beispieldialog:**  
+A: Wie ist die Telefonnummer von Martina?  
+B: Die Telefonnummer von Martina ist 5 26 39 81.  
+A: Wie ist die Telefonnummer von Doktor Müller?  
+B: Die Telefonnummer von Doktor Müller ist 6 47 35 27.  
+Wie ist die Telefonnummer von Anton?  
+A: Die Telefonnummer von Anton ist 2 25 34 71.  
+Wie ist die Telefonnummer von Eva?  
+B: Die Telefonnummer von Eva ist 9 98 76 53.  
+Wie ist die Telefonnummer von der Polizei?  
+A: Die Telefonnummer von der Polizei ist 110.  
+Wie ist die Telefonnummer von der Feuerwehr?  
+B: Die Telefonnummer von der Feuerwehr ist 112.
+
+### 16 b)
+
+**Dialog 1:**  
+B: Welches Kennzeichen hat dein Auto?  
+A: Mein Auto hat das Kennzeichen B-OP 3657.  
+B: Wohnst du in Berlin?  
+A: Ja, ich wohne in Berlin.
+
+**Dialog 2:**  
+A: Welches Kennzeichen hat das Auto von Otto?  
+B: Das Auto von Otto hat das Kennzeichen H-FC 865.  
+A: Wohnt Otto in Hannover?  
+B: Ja, er wohnt in Hannover.
+
+**Dialog 3:**  
+A: Welches Kennzeichen hat das Auto von Marie?  
+B: Das Auto von Marie hat das Kennzeichen F-MX 354.  
+A: Wohnt Marie in Frankfurt?  
+B: Ja, sie wohnt in Frankfurt.
+
+### 17 Beispielsätze
+
+- Deutschland ist 357 375 km² groß. Deutschland hat 82,2 Millionen Einwohner, 16 Bundesländer und vier Millionenstädte. In der Hauptstadt Berlin wohnen 3,5 Millionen Menschen. Die Vorwahl für Deutschland ist 0049.
+- Österreich ist 83 879 km² groß. Österreich hat 8,7 Millionen Einwohner, neun Bundesländer und eine Millionenstadt. In der Hauptstadt Wien wohnen 1,8 Millionen Menschen. Die Vorwahl für Österreich ist 0043.
+- Die Schweiz ist 41 285 km² groß. Die Schweiz hat 8,4 Millionen Einwohner, 26 Kantone und keine Millionenstadt. In der Hauptstadt Bern wohnen 142 000 Menschen. Die Vorwahl für die Schweiz ist 0041.
+
+### 20 a)
+
+1. die Kinder
+2. die Tante
+3. die Frau
+4. der Sohn
+5. die Schwester
+6. die Eltern
+7. der Bruder
+8. der Onkel
+9. die Tochter
+10. der Bruder
+11. der Mann
+
+### 20 b)
+
+1. e
+2. b
+3. a
+4. d
+
+### 21
+
+1.  a) zusammen in Berlin  
+    b) verheiratet  
+    c) geschieden, allein in Köln
+
+2.  a) Ingenieur bei Siemens  
+    b) ist Französischlehrerin  
+    c) ist Journalistin  
+    d) arbeitet als Kommissar bei der Polizei
+
+3.  a) Englisch und Französisch, Deutsch  
+    b) Deutsch und Italienisch, Französisch  
+    c) perfekt Französisch
+
+4.  a) kocht gern  
+    b) liest gern Liebesromane  
+    c) hört gern Musik und kocht gern  
+    d) spielt gern am Computer  
+    e) spielt gern Gitarre
+
+### 22
+
+1. Seine
+2. seine
+3. ihre
+4. Ihre
+5. seine
+6. ihr
+
+### 23 Fragen
+
+- Wo wohnen Sie?
+- Wie ist Ihre Adresse?
+- Sind Sie verheiratet/ledig?
+- Was ist Ihr Beruf?/Was machen Sie beruflich?
+- Was machen Sie als (Journalistin)?
+- Was ist Ihre Muttersprache?
+- Welche Sprachen sprechen Sie noch?
+- Was sind Ihre Hobbys?/Was machen Sie gern?
+
+### 24 Beispieltext
+
+Christoph Waltz ist Schauspieler. Er kommt aus Österreich. Er wohnt heute in Los Angeles und Berlin. Er ist Oscar- und Golden-Globe-Preisträger. Er arbeitet mit Quentin Tarantino. Sein berühmtester Film heißt _Inglorious Bastards_. Er ist verheiratet.
+
+### Ü1
+
+1. Ein Arzt untersucht Patienten.
+2. Eine Informatikerin entwickelt Computerspiele.
+3. Ein Kellner bedient Gäste.
+4. Eine Assistentin schreibt viele E-Mails.
+5. Eine Studentin liest viele Bücher.
+6. Ein Ingenieur konstruiert Maschinen.
+7. Ein Architekt präsentiert Projekte.
+8. Ein Lehrer unterrichtet Kinder.
+
+### Ü2
+
+1. Schreibst du viele E-Mails?
+2. Was machen Sie beruflich?
+3. Ich lese gern Bücher.
+4. Ich präsentiere meine Projekte auf Deutsch.
+5. Beate und Philip studieren Journalistik.
+6. Eva und Anton konstruieren Solarautos.
+7. Manager und Ingenieure haben viele Besprechungen.
+
+### Ü3
+
+Lösungswort: Gegenstand
+
+1. FLASCHE
+2. ZEITUNG
+3. LEHRBUCH
+4. HANDY
+5. STUHL
+6. TISCH
+7. TASCHE
+8. MEDIKAMENT
+9. BILD
+
+### Ü4
+
+1. dein Regenschirm
+2. ihr Handy
+3. deine Zeitung
+4. seine Uhr
+5. sein Auto
+6. sein Schreibtisch
+7. Ihre Tasche
+8. ihre Tasse
+9. meine Brille
+10. Ihr Stuhl
+11. mein Schlüssel
+
+### Ü5
+
+1. Wie ist Ihr Name?
+2. Ist das sein Computer?
+3. Was ist dein Hobby?
+4. Wie ist ihre Adresse?
+5. Meine Schwester ist Lehrerin.
+6. Was ist deine Muttersprache?
+7. Ist das Ihr Schlüssel?
+8. Das ist mein Stift.
+9. Wie ist seine Telefonnummer?
+10. Was ist Ihr Autokennzeichen?
+
+### Ü6
+
+die Zeitung – die Zeitungen,  
+der Computer – die Computer,  
+der Schlüssel – die Schlüssel,  
+das Auto – die Autos,  
+der Kalender – die Kalender,  
+die Brille – die Brillen,  
+die Tasse – die Tassen,  
+das Handy – die Handys,  
+der Stuhl – die Stühle,  
+die Tasche – die Taschen,  
+die Uhr – die Uhren,  
+der Stift – die Stifte,  
+der Regenschirm – die Regenschirme,  
+das Bild – die Bilder,  
+das Medikament – die Medikamente,  
+die Kaffeemaschine – die Kaffeemaschinen,  
+der Laptop – die Laptops
+
+### Ü7
+
+1. 18
+2. 32
+3. 16
+4. 70
+5. 83
+6. 105
+7. 54
+8. 231
+9. 399
+10. 17
+11. 14
+12. 36
+13. 49
+
+### Ü8
+
+1. acht
+2. vierundneunzig
+3. achtzehn
+4. zwölf
+5. fünfzig
+6. sechshundert
+7. dreitausend
+8. zwanzigtausend
+
+### Ü9
+
+1. Spanien ist so groß wie Thailand. Beide Länder haben eine Fläche von 510 000 km².
+2. Österreich ist so groß wie die Vereinigten Arabischen Emirate. Beide Länder haben eine Fläche von 83 000 km².
+3. Bosnien-Herzegowina ist so groß wie Costa Rica. Beide Länder haben eine Fläche von 51 000 km².
+4. Die Schweiz ist so groß wie die Niederlande. Beide Länder haben eine Fläche von 41 000 km².
+
+### Ü10
+
+1. 089 3619590
+2. 030 565420
+3. 0044 1227 761862
+4. 0117 384016
+
+### Ü11
+
+1. die Tochter
+2. die Schwester
+3. die Tante
+4. die Mutter
+5. die Freundin
+
+### Ü12
+
+1. ledig
+2. geschieden
+3. verheiratet
+
+### Ü13
+
+Beispieltext: Annett Louisan ist Sängerin. Sie singt deutsche Lieder und Chansons. Sie lebt heute in Hamburg. Sie ist verheiratet. Ihre CDs haben großen Erfolg.
+
+### Ü14
+
+1. kommst du
+2. machst du
+3. Ist
+4. lernst du
+5. Sprachen sprichst du
+6. Und du?
+
+### T1
+
+1. schreibe
+2. arbeitet
+3. präsentiert
+4. malt
+5. ist
+6. entwickelt
+
+(6 x 1 P.)
+
+### T2
+
+a)
+
+1. ein Stuhl
+2. ein Tisch
+3. eine Lampe
+4. ein Telefon
+5. ein Stift
+6. eine Brille
+7. ein Bildschirm
+8. ein Kalender
+
+(8 x 0,5 P.)
+
+b)
+
+1. der Bruder
+2. der Sohn
+3. der Vater
+4. der Onkel
+
+(4 x 0,5 P.)
+
+### T3
+
+1. deine
+2. seine
+3. Ihre
+4. ihre
+
+(4 x 1 P.)
+
+### T4
+
+1. Ich komme aus Schweden.
+2. Ich studiere Journalistik.
+3. Aber ich lese auch viele Bücher auf Englisch.
+4. Welche Sprachen sprichst du?
+
+(4 x 1 P.)
 
 # Kapitel 3
 
